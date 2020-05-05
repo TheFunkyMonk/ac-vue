@@ -58,9 +58,8 @@
                 class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 pl-2 pr-8 appearance-none"
               >
                 <option value="all">All</option>
-                <option value="available">Available this month</option>
-                <option value="leaving">Leaving this month</option>
-                <!-- <option value="arriving">Arriving this month</option> -->
+                <option value="available">Available in {{ currentMonthString }}</option>
+                <option value="leaving">Leaving after {{ currentMonthString }}</option>
               </select>
             </div>
           </div>
@@ -95,6 +94,7 @@
 import CardList from "./components/CardList.vue";
 import FishData from "./data/fish.json";
 import BugData from "./data/bugs.json";
+import MonthData from "./data/months.json";
 
 export default {
   name: "App",
@@ -111,7 +111,8 @@ export default {
       currentOrder: "price",
       currentFilter: "available",
       hemisphere: "north",
-      currentMonth: new Date().getMonth() + 1
+      currentMonth: new Date().getMonth() + 1,
+      currentMonthString: MonthData[new Date().getMonth()].full
     };
   }
 };
