@@ -52,7 +52,7 @@ export default {
   },
   data() {
     return {
-      title: "Creature Collector",
+      title: "Critter Collector",
       abbr: "ACNH",
       subtitle: "Animal Crossing: New Horizons",
       fish: FishData,
