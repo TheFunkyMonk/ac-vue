@@ -5,7 +5,7 @@
       rel="stylesheet"
     />
     <div class="p-4 md:p-8 bg-orange-200 min-h-screen">
-      <div class="rounded-lg bg-green-500 max-w-5xl mx-auto px-6 py-2 antialiased relative">
+      <div class="rounded-lg bg-green-500 max-w-5xl mx-auto px-6 py-2 md:px-8 antialiased relative">
         <div class="absolute top-0 right-0 mt-4 mr-8 text-white">
           <div class="absolute top-0 right-0 mt-4 mr-3">
             <font-awesome-icon icon="caret-down" class="block mt-px" />
@@ -29,7 +29,7 @@
         </div>
 
         <div
-          class="flex flex-wrap bg-green-800 text-white rounded-lg mb-8 py-2 md:px-2 md:py-4 text-xs"
+          class="flex flex-wrap bg-green-800 text-white rounded-lg mb-8 py-2 md:px-1 md:py-4 text-xs"
         >
           <div class="w-full xs:w-1/2 px-4 my-2">
             <p class="text-xs uppercase tracking-wider font-black">Sort</p>
@@ -53,7 +53,7 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap -mx-4 md:mx-0 md:px-2">
+        <div class="flex flex-wrap -mx-4 md:mx-0 md:px-1">
           <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
             <CardList
               title="Fish"
