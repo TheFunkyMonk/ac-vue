@@ -55,12 +55,12 @@ export default {
   },
   mounted() {
     axios
-      .get("http://acnhapi.com/fish")
+      .get("https://www.xhsun.me/acnh-api/data/v1/fish.json")
       .then(response => {
         this.fish = response.data;
 
         axios
-          .get("http://acnhapi.com/bugs")
+          .get("https://www.xhsun.me/acnh-api/data/v1/bug.json")
           .then(response => (this.bugs = response.data))
           .catch(error => {
             console.log(error);

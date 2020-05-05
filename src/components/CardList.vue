@@ -20,7 +20,7 @@ export default {
     title: String,
     loading: Boolean,
     errored: Boolean,
-    data: Object
+    data: Array
   }
 };
 </script>
