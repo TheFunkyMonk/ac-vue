@@ -5,8 +5,8 @@
       rel="stylesheet"
     />
     <div class="p-4 md:p-8 bg-orange-200 min-h-screen">
-      <div class="rounded-lg bg-green-500 max-w-5xl mx-auto px-8 py-2 antialiased relative">
-        <div class="absolute top-0 right-0 mt-2 mr-8 text-white">
+      <div class="rounded-lg bg-green-500 max-w-5xl mx-auto px-6 py-2 antialiased relative">
+        <div class="absolute top-0 right-0 mt-4 mr-8 text-white">
           <div class="absolute top-0 right-0 mt-4 mr-3">
             <font-awesome-icon icon="caret-down" class="block mt-px" />
           </div>
@@ -18,18 +18,20 @@
             <option value="south">Southern Hemisphere</option>
           </select>
         </div>
-        <div class="mt-16 mb-8 xs:mb-12 md:text-center">
+        <div class="mt-20 mb-8 md:mb-12 md:text-center">
           <h2 class="text-xs uppercase tracking-wider font-black text-white mb-1 sm:-mb-1">
             <span class="inline xs:hidden">{{ abbr }}</span>
             <span class="hidden xs:inline">{{ subtitle }}</span>
           </h2>
           <h1
-            class="text-2xl xs:text-5xl leading-none sm:leading-normal font-black text-white"
+            class="text-3xl xs:text-5xl leading-none sm:leading-normal font-black text-white"
           >{{ title }}</h1>
         </div>
 
-        <div class="flex flex-wrap bg-green-800 text-white rounded-lg px-4 py-2 mb-8 text-xs">
-          <div class="w-full xs:w-1/2 px-4 my-4">
+        <div
+          class="flex flex-wrap bg-green-800 text-white rounded-lg mb-8 py-2 md:px-2 md:py-4 text-xs"
+        >
+          <div class="w-full xs:w-1/2 px-4 my-2">
             <p class="text-xs uppercase tracking-wider font-black">Sort</p>
             <div class="relative text-white">
               <div class="absolute top-0 right-0 mt-4 mr-3">
@@ -45,13 +47,13 @@
               </select>
             </div>
           </div>
-          <div class="w-full xs:w-1/2 px-4 my-4">
+          <div class="w-full xs:w-1/2 px-4 my-2">
             <p class="text-xs uppercase tracking-wider font-black">Filter</p>
             <p class="my-1 pt-px">Coming soon</p>
           </div>
         </div>
 
-        <div class="flex flex-wrap -mx-4">
+        <div class="flex flex-wrap -mx-4 md:mx-0 md:px-2">
           <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
             <CardList
               title="Fish"
