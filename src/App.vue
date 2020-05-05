@@ -5,17 +5,15 @@
       rel="stylesheet"
     />
     <div class="p-4 md:p-8 bg-orange-200">
-      <div
-        class="rounded-lg shadow-xl bg-green-500 max-w-3xl mx-auto px-8 py-4 antialiased min-h-screen"
-      >
+      <div class="rounded-lg bg-green-500 max-w-3xl mx-auto px-8 py-4 antialiased min-h-screen">
         <h1 class="text-3xl md:text-4xl font-black text-white my-8">{{ title }}</h1>
 
         <div class="flex flex-wrap -mx-4">
-          <div class="w-full sm:w-1/2 mb-4 sm:mb-0 px-4">
+          <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
             <CardList title="Fish" v-bind:data="fish" />
           </div>
-          <div class="w-full sm:w-1/2 mb-4 sm:mb-0 px-4">
-            <CardList title="Bugs" v-bind:data="bugs" />
+          <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
+            <CardList title="Insects" v-bind:data="bugs" />
           </div>
         </div>
       </div>

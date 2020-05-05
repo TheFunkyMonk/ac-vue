@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Bitterling",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/NH-Icon-bitterling.png",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "All day",
@@ -24,6 +25,7 @@
 	},
 	{
 		"name": "Pale Chub",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-palechub.png",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -61,6 +63,7 @@
 	},
 	{
 		"name": "Crucian Carp",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/03/NH-Icon-cruciancarp.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "All day",
@@ -98,6 +101,7 @@
 	},
 	{
 		"name": "Dace",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-dace.png",
 		"shadowSize": "3",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -135,6 +139,7 @@
 	},
 	{
 		"name": "Carp",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2c/NH-Icon-carp.png",
 		"shadowSize": "4",
 		"location": "Pond",
 		"time": "All day",
@@ -172,6 +177,7 @@
 	},
 	{
 		"name": "Koi",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/74/NH-Icon-koi.png",
 		"shadowSize": "4",
 		"location": "Pond",
 		"time": "4 PM - 9 AM",
@@ -209,6 +215,7 @@
 	},
 	{
 		"name": "Goldfish",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/NH-Icon-goldfish.png",
 		"shadowSize": "1",
 		"location": "Pond",
 		"time": "All day",
@@ -246,6 +253,7 @@
 	},
 	{
 		"name": "Pop-eyed Goldfish",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c9/NH-Icon-popeyedgoldfish.png",
 		"shadowSize": "1",
 		"location": "Pond",
 		"time": "9 AM - 4 PM",
@@ -283,6 +291,7 @@
 	},
 	{
 		"name": "Ranchu Goldfish",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f9/NH-Icon-ranchugoldfish.png",
 		"shadowSize": "2",
 		"location": "Pond",
 		"time": "9 AM - 4 PM",
@@ -320,6 +329,7 @@
 	},
 	{
 		"name": "Killifish",
+		"image": "",
 		"shadowSize": "1",
 		"location": "Pond",
 		"time": "All day",
@@ -343,6 +353,7 @@
 	},
 	{
 		"name": "Crawfish",
+		"image": "",
 		"shadowSize": "2",
 		"location": "Pond",
 		"time": "All day",
@@ -368,6 +379,7 @@
 	},
 	{
 		"name": "Soft-shelled Turtle",
+		"image": "",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -385,6 +397,7 @@
 	},
 	{
 		"name": "Snapping Turtle",
+		"image": "",
 		"shadowSize": "5",
 		"location": "River",
 		"time": "9 PM - 4 AM",
@@ -412,6 +425,7 @@
 	},
 	{
 		"name": "Tadpole",
+		"image": "",
 		"shadowSize": "1",
 		"location": "Pond",
 		"time": "All day",
@@ -435,6 +449,7 @@
 	},
 	{
 		"name": "Frog",
+		"image": "",
 		"shadowSize": "2",
 		"location": "Pond",
 		"time": "All day",
@@ -456,6 +471,7 @@
 	},
 	{
 		"name": "Freshwater Goby",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -493,6 +509,7 @@
 	},
 	{
 		"name": "Loach",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "All day",
@@ -512,6 +529,7 @@
 	},
 	{
 		"name": "Catfish",
+		"image": "",
 		"shadowSize": "4",
 		"location": "Pond",
 		"time": "4 PM - 9 AM",
@@ -537,6 +555,7 @@
 	},
 	{
 		"name": "Giant Snakehead",
+		"image": "",
 		"shadowSize": "5",
 		"location": "Pond",
 		"time": "9 AM - 4 PM",
@@ -556,6 +575,7 @@
 	},
 	{
 		"name": "Bluegill",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -593,6 +613,7 @@
 	},
 	{
 		"name": "Yellow Perch",
+		"image": "",
 		"shadowSize": "3",
 		"location": "River",
 		"time": "All day",
@@ -618,6 +639,7 @@
 	},
 	{
 		"name": "Black Bass",
+		"image": "",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "All day",
@@ -655,6 +677,7 @@
 	},
 	{
 		"name": "Tilapia",
+		"image": "",
 		"shadowSize": "3",
 		"location": "River",
 		"time": "All day",
@@ -678,6 +701,7 @@
 	},
 	{
 		"name": "Pike",
+		"image": "",
 		"shadowSize": "5",
 		"location": "River",
 		"time": "All day",
@@ -699,6 +723,7 @@
 	},
 	{
 		"name": "Pond Smelt",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "All day",
@@ -718,6 +743,7 @@
 	},
 	{
 		"name": "Sweetfish",
+		"image": "",
 		"shadowSize": "3",
 		"location": "River",
 		"time": "All day",
@@ -737,6 +763,7 @@
 	},
 	{
 		"name": "Cherry Salmon",
+		"image": "",
 		"shadowSize": "3",
 		"location": "River (Clifftop) & Pond",
 		"time": "4 PM - 9 AM",
@@ -764,6 +791,7 @@
 	},
 	{
 		"name": "Char",
+		"image": "",
 		"shadowSize": "3",
 		"location": "River (Clifftop)",
 		"time": "4 PM - 9 AM",
@@ -791,6 +819,7 @@
 	},
 	{
 		"name": "Golden Trout",
+		"image": "",
 		"shadowSize": "3",
 		"location": "River (Clifftop)",
 		"time": "4 PM - 9 AM",
@@ -816,6 +845,7 @@
 	},
 	{
 		"name": "Stringfish",
+		"image": "",
 		"shadowSize": "6",
 		"location": "River (Clifftop)",
 		"time": "4 PM - 9 AM",
@@ -837,6 +867,7 @@
 	},
 	{
 		"name": "Salmon",
+		"image": "",
 		"shadowSize": "4",
 		"location": "River (Mouth)",
 		"time": "All day",
@@ -852,6 +883,7 @@
 	},
 	{
 		"name": "King Salmon",
+		"image": "",
 		"shadowSize": "6",
 		"location": "River (Mouth)",
 		"time": "All day",
@@ -867,6 +899,7 @@
 	},
 	{
 		"name": "Mitten Crab",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -886,6 +919,7 @@
 	},
 	{
 		"name": "Guppy",
+		"image": "",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -915,6 +949,7 @@
 	},
 	{
 		"name": "Nibble Fish",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -938,6 +973,7 @@
 	},
 	{
 		"name": "Angelfish",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -963,6 +999,7 @@
 	},
 	{
 		"name": "Betta",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -988,6 +1025,7 @@
 	},
 	{
 		"name": "Neon Tetra",
+		"image": "",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -1017,6 +1055,7 @@
 	},
 	{
 		"name": "Rainbowfish",
+		"image": "",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -1042,6 +1081,7 @@
 	},
 	{
 		"name": "Piranha",
+		"image": "",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM & 9 PM - 4 AM",
@@ -1063,6 +1103,7 @@
 	},
 	{
 		"name": "Arowana",
+		"image": "",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -1084,6 +1125,7 @@
 	},
 	{
 		"name": "Dorado",
+		"image": "",
 		"shadowSize": "5",
 		"location": "River",
 		"time": "4 AM - 9 PM",
@@ -1105,6 +1147,7 @@
 	},
 	{
 		"name": "Gar",
+		"image": "",
 		"shadowSize": "6",
 		"location": "Pond",
 		"time": "4 PM - 9 AM",
@@ -1126,6 +1169,7 @@
 	},
 	{
 		"name": "Arapaima",
+		"image": "",
 		"shadowSize": "6",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -1147,6 +1191,7 @@
 	},
 	{
 		"name": "Saddled Bichir",
+		"image": "",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "9 PM - 4 AM",
@@ -1168,6 +1213,7 @@
 	},
 	{
 		"name": "Sturgeon",
+		"image": "",
 		"shadowSize": "6",
 		"location": "River (Mouth)",
 		"time": "All day",
@@ -1195,6 +1241,7 @@
 	},
 	{
 		"name": "Sea Butterfly",
+		"image": "",
 		"shadowSize": "1",
 		"location": "Sea",
 		"time": "All day",
@@ -1216,6 +1263,7 @@
 	},
 	{
 		"name": "Sea Horse",
+		"image": "",
 		"shadowSize": "1",
 		"location": "Sea",
 		"time": "All day",
@@ -1245,6 +1293,7 @@
 	},
 	{
 		"name": "Clown Fish",
+		"image": "",
 		"shadowSize": "1",
 		"location": "Sea",
 		"time": "All day",
@@ -1270,6 +1319,7 @@
 	},
 	{
 		"name": "Surgeonfish",
+		"image": "",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "All day",
@@ -1295,6 +1345,7 @@
 	},
 	{
 		"name": "Butterfly Fish",
+		"image": "",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "All day",
@@ -1320,6 +1371,7 @@
 	},
 	{
 		"name": "Napoleonfish",
+		"image": "",
 		"shadowSize": "6",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1337,6 +1389,7 @@
 	},
 	{
 		"name": "Zebra Turkeyfish",
+		"image": "",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1366,6 +1419,7 @@
 	},
 	{
 		"name": "Blowfish",
+		"image": "",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "9 PM - 4 AM",
@@ -1387,6 +1441,7 @@
 	},
 	{
 		"name": "Puffer Fish",
+		"image": "",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1406,6 +1461,7 @@
 	},
 	{
 		"name": "Anchovy",
+		"image": "",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1443,6 +1499,7 @@
 	},
 	{
 		"name": "Horse Mackerel",
+		"image": "",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "All day",
@@ -1480,6 +1537,7 @@
 	},
 	{
 		"name": "Barred Knifejaw",
+		"image": "",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1511,6 +1569,7 @@
 	},
 	{
 		"name": "Sea Bass",
+		"image": "",
 		"shadowSize": "5",
 		"location": "Sea",
 		"time": "All day",
@@ -1548,6 +1607,7 @@
 	},
 	{
 		"name": "Red Snapper",
+		"image": "",
 		"shadowSize": "4",
 		"location": "Sea",
 		"time": "All day",
@@ -1585,6 +1645,7 @@
 	},
 	{
 		"name": "Dab",
+		"image": "",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1612,6 +1673,7 @@
 	},
 	{
 		"name": "Olive Flounder",
+		"image": "",
 		"shadowSize": "5",
 		"location": "Sea",
 		"time": "All day",
@@ -1649,6 +1711,7 @@
 	},
 	{
 		"name": "Squid",
+		"image": "",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1680,6 +1743,7 @@
 	},
 	{
 		"name": "Moray Eel",
+		"image": "",
 		"shadowSize": "Narrow",
 		"location": "Sea",
 		"time": "All day",
@@ -1699,6 +1763,7 @@
 	},
 	{
 		"name": "Ribbon Eel",
+		"image": "",
 		"shadowSize": "Narrow",
 		"location": "Sea",
 		"time": "All day",
@@ -1722,6 +1787,7 @@
 	},
 	{
 		"name": "Tuna",
+		"image": "",
 		"shadowSize": "6",
 		"location": "Pier",
 		"time": "All day",
@@ -1747,6 +1813,7 @@
 	},
 	{
 		"name": "Blue Marlin",
+		"image": "",
 		"shadowSize": "6",
 		"location": "Pier",
 		"time": "All day",
@@ -1778,6 +1845,7 @@
 	},
 	{
 		"name": "Giant Trevally",
+		"image": "",
 		"shadowSize": "5",
 		"location": "Pier",
 		"time": "All day",
@@ -1803,6 +1871,7 @@
 	},
 	{
 		"name": "Mahi-mahi",
+		"image": "",
 		"shadowSize": "5",
 		"location": "Pier",
 		"time": "All day",
@@ -1828,6 +1897,7 @@
 	},
 	{
 		"name": "Ocean Sunfish",
+		"image": "",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1847,6 +1917,7 @@
 	},
 	{
 		"name": "Ray",
+		"image": "",
 		"shadowSize": "5",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1868,6 +1939,7 @@
 	},
 	{
 		"name": "Saw Shark",
+		"image": "",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -1889,6 +1961,7 @@
 	},
 	{
 		"name": "Hammerhead Shark",
+		"image": "",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -1910,6 +1983,7 @@
 	},
 	{
 		"name": "Great White Shark",
+		"image": "",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -1931,6 +2005,7 @@
 	},
 	{
 		"name": "Whale Shark",
+		"image": "",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "All day",
@@ -1952,6 +2027,7 @@
 	},
 	{
 		"name": "Suckerfish",
+		"image": "",
 		"shadowSize": "4 (Fin)",
 		"location": "Sea",
 		"time": "All day",
@@ -1973,6 +2049,7 @@
 	},
 	{
 		"name": "Football Fish",
+		"image": "",
 		"shadowSize": "4",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -1996,6 +2073,7 @@
 	},
 	{
 		"name": "Oarfish",
+		"image": "",
 		"shadowSize": "6",
 		"location": "Sea",
 		"time": "All day",
@@ -2021,6 +2099,7 @@
 	},
 	{
 		"name": "Barreleye",
+		"image": "",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "9 PM - 4 AM",
@@ -2058,6 +2137,7 @@
 	},
 	{
 		"name": "Coelacanth",
+		"image": "",
 		"shadowSize": "6",
 		"location": "Sea (Rainy Days)",
 		"time": "All day",

@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Common Butterfly",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3a/NH-Icon-commonbutterfly.png",
 		"location": "Flying",
 		"time": "4 AM - 7 PM",
 		"price": 160,
@@ -33,6 +34,7 @@
 	},
 	{
 		"name": "Yellow Butterfly",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fa/NH-Icon-yellowbutterfly.png",
 		"location": "Flying",
 		"time": "4 AM - 7 PM",
 		"price": 160,
@@ -57,6 +59,7 @@
 	},
 	{
 		"name": "Tiger Butterfly",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/65/NH-Icon-tigerbutterfly.png",
 		"location": "Flying",
 		"time": "4 AM - 7 PM",
 		"price": 240,
@@ -83,6 +86,7 @@
 	},
 	{
 		"name": "Peacock Butterfly",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-peacockbutterfly.png",
 		"location": "Flying by Hybrid Flowers",
 		"time": "4 AM - 7 PM",
 		"price": 2500,
@@ -103,6 +107,7 @@
 	},
 	{
 		"name": "Common Bluebottle",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-commonbluebottle.png",
 		"location": "Flying",
 		"time": "4 AM - 7 PM",
 		"price": 300,
@@ -125,6 +130,7 @@
 	},
 	{
 		"name": "Paper Kite Butterfly",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-paperkitebutterfly.png",
 		"location": "Flying",
 		"time": "8 AM - 7 PM",
 		"price": 1000,
@@ -161,6 +167,7 @@
 	},
 	{
 		"name": "Great Purple Emperor",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-monarchbutterfly.png",
 		"location": "Flying",
 		"time": "4 AM - 7 PM",
 		"price": 3000,
@@ -181,6 +188,7 @@
 	},
 	{
 		"name": "Monarch Butterfly",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/99/NH-Icon-monarchbutterfly.png",
 		"location": "Flying",
 		"time": "4 AM - 5 PM",
 		"price": 140,
@@ -199,6 +207,7 @@
 	},
 	{
 		"name": "Emperor Butterfly",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/NH-Icon-emperorbutterfly.png",
 		"location": "Flying",
 		"time": "5 PM - 8 AM",
 		"price": 4000,
@@ -227,6 +236,7 @@
 	},
 	{
 		"name": "Agrias Butterfly",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 5 PM",
 		"price": 3000,
@@ -251,6 +261,7 @@
 	},
 	{
 		"name": "Rajah Brooke's Birdwing",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 5 PM",
 		"price": 2500,
@@ -281,6 +292,7 @@
 	},
 	{
 		"name": "Queen Alexandra's Birdwing",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 4 PM",
 		"price": 4000,
@@ -303,6 +315,7 @@
 	},
 	{
 		"name": "Moth",
+		"image": "",
 		"location": "Flying by Light",
 		"time": "7 PM - 4 AM",
 		"price": 130,
@@ -339,6 +352,7 @@
 	},
 	{
 		"name": "Atlas Moth",
+		"image": "",
 		"location": "On Trees",
 		"time": "7 PM - 4 AM",
 		"price": 3000,
@@ -363,6 +377,7 @@
 	},
 	{
 		"name": "Madagascan Sunset Moth",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 4 PM",
 		"price": 2500,
@@ -387,6 +402,7 @@
 	},
 	{
 		"name": "Long locust",
+		"image": "",
 		"location": "On the Ground",
 		"time": "8 AM - 7 PM",
 		"price": 200,
@@ -415,6 +431,7 @@
 	},
 	{
 		"name": "Migratory Locust",
+		"image": "",
 		"location": "On the Ground",
 		"time": "8 AM - 7 PM",
 		"price": 600,
@@ -435,6 +452,7 @@
 	},
 	{
 		"name": "Rice Grasshopper",
+		"image": "",
 		"location": "On the Ground",
 		"time": "8 AM - 7 PM",
 		"price": 160,
@@ -455,6 +473,7 @@
 	},
 	{
 		"name": "Grasshopper",
+		"image": "",
 		"location": "On the Ground",
 		"time": "8 AM - 5 PM",
 		"price": 160,
@@ -473,6 +492,7 @@
 	},
 	{
 		"name": "Cricket",
+		"image": "",
 		"location": "On the Ground",
 		"time": "5 PM - 8 AM",
 		"price": 130,
@@ -491,6 +511,7 @@
 	},
 	{
 		"name": "Bell Cricket",
+		"image": "",
 		"location": "On the Ground",
 		"time": "5 PM - 8 AM",
 		"price": 430,
@@ -507,6 +528,7 @@
 	},
 	{
 		"name": "Mantis",
+		"image": "",
 		"location": "On Flowers",
 		"time": "8 AM - 5 PM",
 		"price": 430,
@@ -537,6 +559,7 @@
 	},
 	{
 		"name": "Orchid Mantis",
+		"image": "",
 		"location": "On Flowers (White)",
 		"time": "8 AM - 5 PM",
 		"price": 2400,
@@ -567,6 +590,7 @@
 	},
 	{
 		"name": "Honeybee",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 5 PM",
 		"price": 200,
@@ -589,6 +613,7 @@
 	},
 	{
 		"name": "Wasp",
+		"image": "",
 		"location": "Shaking Trees",
 		"time": "All day",
 		"price": 2500,
@@ -625,6 +650,7 @@
 	},
 	{
 		"name": "Brown Cicada",
+		"image": "",
 		"location": "On Trees",
 		"time": "8 AM - 5 PM",
 		"price": 250,
@@ -641,6 +667,7 @@
 	},
 	{
 		"name": "Robust Cicada",
+		"image": "",
 		"location": "On Trees",
 		"time": "8 AM - 5 PM",
 		"price": 300,
@@ -657,6 +684,7 @@
 	},
 	{
 		"name": "Giant Cicada",
+		"image": "",
 		"location": "On Trees",
 		"time": "8 AM - 5 PM",
 		"price": 500,
@@ -673,6 +701,7 @@
 	},
 	{
 		"name": "Walker Cicada",
+		"image": "",
 		"location": "On Trees",
 		"time": "8 AM - 5 PM",
 		"price": 400,
@@ -689,6 +718,7 @@
 	},
 	{
 		"name": "Evening Cicada",
+		"image": "",
 		"location": "On Trees",
 		"time": "4 AM - 8 AM & 4 PM - 7 PM",
 		"price": 550,
@@ -705,6 +735,7 @@
 	},
 	{
 		"name": "Cicada Shell",
+		"image": "",
 		"location": "On Trees",
 		"time": "All day",
 		"price": 10,
@@ -721,6 +752,7 @@
 	},
 	{
 		"name": "Red Dragonfly",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 7 PM",
 		"price": 180,
@@ -737,6 +769,7 @@
 	},
 	{
 		"name": "Darner Dragonfly",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 5 PM",
 		"price": 230,
@@ -763,6 +796,7 @@
 	},
 	{
 		"name": "Banded Dragonfly",
+		"image": "",
 		"location": "Flying",
 		"time": "8 AM - 5 PM",
 		"price": 4500,
@@ -787,6 +821,7 @@
 	},
 	{
 		"name": "Damselfly",
+		"image": "",
 		"location": "Flying",
 		"time": "All day",
 		"price": 500,
@@ -807,6 +842,7 @@
 	},
 	{
 		"name": "Firefly",
+		"image": "",
 		"location": "Flying",
 		"time": "7 PM - 4 AM",
 		"price": 300,
@@ -821,6 +857,7 @@
 	},
 	{
 		"name": "Mole Cricket",
+		"image": "",
 		"location": "Underground",
 		"time": "All day",
 		"price": 500,
@@ -847,6 +884,7 @@
 	},
 	{
 		"name": "Pondskater",
+		"image": "",
 		"location": "On Ponds and Rivers",
 		"time": "8 AM - 7 PM",
 		"price": 130,
@@ -869,6 +907,7 @@
 	},
 	{
 		"name": "Diving Beetle",
+		"image": "",
 		"location": "On Ponds and Rivers",
 		"time": "8 AM - 7 PM",
 		"price": 800,
@@ -891,6 +930,7 @@
 	},
 	{
 		"name": "Giant Water Bug",
+		"image": "",
 		"location": "On Ponds and Rivers",
 		"time": "7 PM - 8 AM",
 		"price": 2000,
@@ -915,6 +955,7 @@
 	},
 	{
 		"name": "Stinkbug",
+		"image": "",
 		"location": "On Flowers",
 		"time": "All day",
 		"price": 120,
@@ -943,6 +984,7 @@
 	},
 	{
 		"name": "Man-faced Stink Bug",
+		"image": "",
 		"location": "On Flowers",
 		"time": "7 PM - 8 AM",
 		"price": 1000,
@@ -971,6 +1013,7 @@
 	},
 	{
 		"name": "Ladybug",
+		"image": "",
 		"location": "On Flowers",
 		"time": "8 AM - 5 PM",
 		"price": 200,
@@ -993,6 +1036,7 @@
 	},
 	{
 		"name": "Tiger beetle",
+		"image": "",
 		"location": "On the Ground",
 		"time": "All day",
 		"price": 1500,
@@ -1023,6 +1067,7 @@
 	},
 	{
 		"name": "Jewel Beetle",
+		"image": "",
 		"location": "On Tree Stumps",
 		"time": "All day",
 		"price": 2400,
@@ -1045,6 +1090,7 @@
 	},
 	{
 		"name": "Violin Beetle",
+		"image": "",
 		"location": "On Tree Stumps",
 		"time": "All day",
 		"price": 450,
@@ -1067,6 +1113,7 @@
 	},
 	{
 		"name": "Citrus Long-horned Beetle",
+		"image": "",
 		"location": "On Tree Stumps",
 		"time": "All day",
 		"price": 350,
@@ -1103,6 +1150,7 @@
 	},
 	{
 		"name": "Rosalia Batesi Beetle",
+		"image": "",
 		"location": "On Tree Stumps",
 		"time": "All day",
 		"price": 3000,
@@ -1125,6 +1173,7 @@
 	},
 	{
 		"name": "Blue Weevil Beetle",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "All day",
 		"price": 800,
@@ -1141,6 +1190,7 @@
 	},
 	{
 		"name": "Dung Beetle",
+		"image": "",
 		"location": "On the Ground (Rolling Snowballs)",
 		"time": "All day",
 		"price": 3000,
@@ -1159,6 +1209,7 @@
 	},
 	{
 		"name": "Earth-boring Dung Beetle",
+		"image": "",
 		"location": "On the Ground",
 		"time": "All day",
 		"price": 300,
@@ -1177,6 +1228,7 @@
 	},
 	{
 		"name": "Scarab Beetle",
+		"image": "",
 		"location": "On Trees",
 		"time": "11 PM - 8 AM",
 		"price": 10000,
@@ -1193,6 +1245,7 @@
 	},
 	{
 		"name": "Drone Beetle",
+		"image": "",
 		"location": "On Trees",
 		"time": "All day",
 		"price": 200,
@@ -1211,6 +1264,7 @@
 	},
 	{
 		"name": "Goliath Beetle",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "5 PM - 8 AM",
 		"price": 8000,
@@ -1231,6 +1285,7 @@
 	},
 	{
 		"name": "Saw Stag",
+		"image": "",
 		"location": "On Trees",
 		"time": "All day",
 		"price": 2000,
@@ -1247,6 +1302,7 @@
 	},
 	{
 		"name": "Miyama Stag",
+		"image": "",
 		"location": "On Trees",
 		"time": "All day",
 		"price": 1000,
@@ -1263,6 +1319,7 @@
 	},
 	{
 		"name": "Giant Stag",
+		"image": "",
 		"location": "On Trees",
 		"time": "11 PM - 8 AM",
 		"price": 10000,
@@ -1279,6 +1336,7 @@
 	},
 	{
 		"name": "Rainbow Stag",
+		"image": "",
 		"location": "On Trees",
 		"time": "7 PM - 8 AM",
 		"price": 6000,
@@ -1299,6 +1357,7 @@
 	},
 	{
 		"name": "Cyclommatus Stag",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "5 PM - 8 AM",
 		"price": 8000,
@@ -1315,6 +1374,7 @@
 	},
 	{
 		"name": "Golden Stag",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "5 PM - 8 AM",
 		"price": 12000,
@@ -1331,6 +1391,7 @@
 	},
 	{
 		"name": "Giraffe Stag",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "",
 		"price": 0,
@@ -1347,6 +1408,7 @@
 	},
 	{
 		"name": "Horned Dynastid",
+		"image": "",
 		"location": "On Trees",
 		"time": "5 PM - 8 AM",
 		"price": 1350,
@@ -1363,6 +1425,7 @@
 	},
 	{
 		"name": "Horned Atlas",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "5 PM - 8 AM",
 		"price": 8000,
@@ -1379,6 +1442,7 @@
 	},
 	{
 		"name": "Horned Elephant",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "5 PM - 8 AM",
 		"price": 8000,
@@ -1395,6 +1459,7 @@
 	},
 	{
 		"name": "Horned Hercules",
+		"image": "",
 		"location": "On Trees (Coconut)",
 		"time": "5 PM - 8 AM",
 		"price": 12000,
@@ -1411,6 +1476,7 @@
 	},
 	{
 		"name": "Walking Stick",
+		"image": "",
 		"location": "On Trees",
 		"time": "4 AM - 8 AM & 5 PM - 7 PM",
 		"price": 0,
@@ -1433,6 +1499,7 @@
 	},
 	{
 		"name": "Walking Leaf",
+		"image": "",
 		"location": "Under Trees Disguised as Leafs",
 		"time": "All day",
 		"price": 600,
@@ -1451,6 +1518,7 @@
 	},
 	{
 		"name": "Bagworm",
+		"image": "",
 		"location": "Shaking Trees",
 		"time": "All day",
 		"price": 600,
@@ -1487,6 +1555,7 @@
 	},
 	{
 		"name": "Ant",
+		"image": "",
 		"location": "On Rotten Food",
 		"time": "All day",
 		"price": 80,
@@ -1523,6 +1592,7 @@
 	},
 	{
 		"name": "Hermit Crab",
+		"image": "",
 		"location": "Beach Disguised as Shells ",
 		"time": "7 PM - 8 AM",
 		"price": 1000,
@@ -1559,6 +1629,7 @@
 	},
 	{
 		"name": "Wharf Roach",
+		"image": "",
 		"location": "On Beach Rocks",
 		"time": "All day",
 		"price": 200,
@@ -1595,6 +1666,7 @@
 	},
 	{
 		"name": "Fly",
+		"image": "",
 		"location": "On Trash Items",
 		"time": "All day",
 		"price": 60,
@@ -1631,6 +1703,7 @@
 	},
 	{
 		"name": "Mosquito",
+		"image": "",
 		"location": "Flying",
 		"time": "5 PM - 4 AM",
 		"price": 130,
@@ -1651,6 +1724,7 @@
 	},
 	{
 		"name": "Flea",
+		"image": "",
 		"location": "Villager's Heads",
 		"time": "Villager's Heads",
 		"price": 70,
@@ -1679,6 +1753,7 @@
 	},
 	{
 		"name": "Snail",
+		"image": "",
 		"location": "On Rocks (Rain)",
 		"time": "All day",
 		"price": 250,
@@ -1715,6 +1790,7 @@
 	},
 	{
 		"name": "Pill Bug",
+		"image": "",
 		"location": "Hitting Rocks",
 		"time": "11 PM - 4 PM",
 		"price": 250,
@@ -1747,6 +1823,7 @@
 	},
 	{
 		"name": "Centipede",
+		"image": "",
 		"location": "Hitting Rocks",
 		"time": "4 PM - 11 PM",
 		"price": 300,
@@ -1779,6 +1856,7 @@
 	},
 	{
 		"name": "Spider",
+		"image": "",
 		"location": "Shaking Trees",
 		"time": "7 PM - 8 AM",
 		"price": 600,
@@ -1815,6 +1893,7 @@
 	},
 	{
 		"name": "Tarantula",
+		"image": "",
 		"location": "On the Ground",
 		"time": "7 PM - 4 AM",
 		"price": 8000,
@@ -1839,6 +1918,7 @@
 	},
 	{
 		"name": "Scorpion",
+		"image": "",
 		"location": "On the Ground",
 		"time": "7 PM - 4 AM",
 		"price": 8000,

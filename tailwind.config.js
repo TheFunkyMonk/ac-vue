@@ -7,6 +7,9 @@ module.exports = {
           'Montserrat',
           'sans-serif'
         ]
+      },
+      screens: {
+        'xs': '480px',
       }
     },
   },
