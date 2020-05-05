@@ -19,6 +19,14 @@
         <span class="font-bold">Time</span>
         : {{ item.time }}
       </p>
+      <p class="text-xs my-0">
+        <span class="font-bold">Northern Months</span>
+        : {{ item.month.north }}
+      </p>
+      <p class="text-xs my-0">
+        <span class="font-bold">Southern Months</span>
+        : {{ item.month.south }}
+      </p>
     </div>
   </div>
 </template>
