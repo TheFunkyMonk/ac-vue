@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h2 class="text-lg font-black text-white text-bold -mb-2">{{ title }}</h2>
-
+    <h2 class="text-xs uppercase tracking-wider font-black text-white -mb-4">{{ title }}</h2>
     <section v-for="item in data" v-bind:key="item.id">
       <Card v-bind:item="item" />
     </section>
