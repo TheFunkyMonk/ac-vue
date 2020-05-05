@@ -5,17 +5,25 @@
       rel="stylesheet"
     />
     <div class="p-4 md:p-8 bg-orange-200">
-      <div class="rounded-lg bg-green-500 max-w-3xl mx-auto px-8 py-2 antialiased min-h-screen">
-        <h1 class="text-3xl md:text-4xl font-black text-white my-8">{{ title }}</h1>
+      <div class="rounded-lg bg-green-500 max-w-4xl mx-auto px-8 py-2 antialiased min-h-screen">
+        <div class="my-8 xs:my-12 md:text-center">
+          <h2 class="text-xs uppercase tracking-wider font-black text-white mb-1 sm:-mb-1">
+            <span class="inline xs:hidden">{{ abbr }}</span>
+            <span class="hidden xs:inline">{{ subtitle }}</span>
+          </h2>
+          <h1
+            class="text-2xl xs:text-5xl leading-none sm:leading-normal font-black text-white"
+          >{{ title }}</h1>
+        </div>
 
-        <div class="flex flex-wrap bg-green-800 text-white rounded-lg px-4 py-px mb-8 text-xs">
-          <div class="w-1/2 px-2 my-4">
+        <div class="flex flex-wrap bg-green-800 text-white rounded-lg px-4 py-2 mb-8 text-xs">
+          <div class="w-full xs:w-1/2 px-2 my-4">
             <p class="text-xs uppercase tracking-wider font-black">Filter</p>
-            <p class>Coming soon!</p>
+            <p class>Coming soon</p>
           </div>
-          <div class="w-1/2 px-2 my-4">
+          <div class="w-full xs:w-1/2 px-2 xs:pl-4 my-4">
             <p class="text-xs uppercase tracking-wider font-black">Sort</p>
-            <p class>Coming soon!</p>
+            <p class>Coming soon</p>
           </div>
         </div>
 
@@ -44,7 +52,9 @@ export default {
   },
   data() {
     return {
-      title: "ACNH Creature Collector",
+      title: "Creature Collector",
+      abbr: "ACNH",
+      subtitle: "Animal Crossing: New Horizons",
       fish: FishData,
       bugs: BugData
     };

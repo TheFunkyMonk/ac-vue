@@ -1,6 +1,6 @@
 <template>
   <div
-    class="my-4 md:my-8 block shadow-lg rounded-lg overflow-hidden transform hover:-translate-y-1 hover:shadow-2xl transition duration-150 cursor-pointer"
+    class="my-4 md:my-8 block rounded-lg overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-200 cursor-pointer"
   >
     <div class="px-4 bg-blue-200 p-px flex items-center justify-start">
       <img v-if="item.image" v-bind:src="item.image" v-bind:alt="item.name" class="w-8 -ml-2 mr-1" />
@@ -10,6 +10,14 @@
       <p class="text-xs my-0">
         <span class="font-bold">Price</span>
         : {{ item.price }}
+      </p>
+      <p class="text-xs my-0">
+        <span class="font-bold">Location</span>
+        : {{ item.location }}
+      </p>
+      <p class="text-xs my-0">
+        <span class="font-bold">Time</span>
+        : {{ item.time }}
       </p>
     </div>
   </div>
