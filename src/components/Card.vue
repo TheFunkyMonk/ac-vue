@@ -2,9 +2,20 @@
   <div
     class="my-4 md:my-8 block rounded-lg overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-200 cursor-pointer"
   >
-    <div class="px-4 bg-blue-200 p-px flex items-center justify-start">
-      <img v-if="item.image" v-bind:src="item.image" v-bind:alt="item.name" class="w-8 -ml-2 mr-1" />
-      <h2 class="text-base font-medium my-2">{{ item.name }}</h2>
+    <div class="px-4 bg-blue-200 p-px flex flex-wrap justify-between items-center">
+      <div class="flex items-center">
+        <img
+          v-if="item.image"
+          v-bind:src="item.image"
+          v-bind:alt="item.name"
+          class="w-8 -ml-2 mr-1"
+        />
+        <h2 class="text-base font-medium my-2">{{ item.name }}</h2>
+      </div>
+      <p
+        v-if="leaving"
+        class="inline-block text-xs my-2 px-2 leading-loose p-0 rounded-full bg-blue-600 text-white"
+      >Leaving Soon!</p>
     </div>
     <div class="px-4 bg-white py-4">
       <p class="text-xs my-0">
@@ -32,7 +43,9 @@ export default {
   name: "Card",
   props: {
     item: Object,
-    hemisphere: String
-  }
+    hemisphere: String,
+    leaving: Boolean
+  },
+  methods: {}
 };
 </script>
