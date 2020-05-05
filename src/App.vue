@@ -5,7 +5,7 @@
       rel="stylesheet"
     />
     <div class="p-4 md:p-8 bg-orange-200">
-      <div class="rounded-lg bg-green-500 max-w-4xl mx-auto px-8 py-2 antialiased min-h-screen">
+      <div class="rounded-lg bg-green-500 max-w-4xl mx-auto px-8 py-2 antialiased">
         <div class="my-8 xs:my-12 md:text-center">
           <h2 class="text-xs uppercase tracking-wider font-black text-white mb-1 sm:-mb-1">
             <span class="inline xs:hidden">{{ abbr }}</span>

@@ -329,7 +329,7 @@
 	},
 	{
 		"name": "Killifish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-killifish.png",
 		"shadowSize": "1",
 		"location": "Pond",
 		"time": "All day",
@@ -353,7 +353,7 @@
 	},
 	{
 		"name": "Crawfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cd/NH-Icon-crawfish.png",
 		"shadowSize": "2",
 		"location": "Pond",
 		"time": "All day",
@@ -379,7 +379,7 @@
 	},
 	{
 		"name": "Soft-shelled Turtle",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c3/NH-Icon-softshelledturtle.png",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -397,7 +397,7 @@
 	},
 	{
 		"name": "Snapping Turtle",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-snappingturtle.png",
 		"shadowSize": "5",
 		"location": "River",
 		"time": "9 PM - 4 AM",
@@ -425,7 +425,7 @@
 	},
 	{
 		"name": "Tadpole",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-tadpole.png",
 		"shadowSize": "1",
 		"location": "Pond",
 		"time": "All day",
@@ -449,7 +449,7 @@
 	},
 	{
 		"name": "Frog",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/NH-Icon-frog.png",
 		"shadowSize": "2",
 		"location": "Pond",
 		"time": "All day",
@@ -471,7 +471,7 @@
 	},
 	{
 		"name": "Freshwater Goby",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ee/NH-Icon-freshwatergoby.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -509,7 +509,7 @@
 	},
 	{
 		"name": "Loach",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/77/NH-Icon-loach.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "All day",
@@ -529,7 +529,7 @@
 	},
 	{
 		"name": "Catfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/29/NH-Icon-catfish.png",
 		"shadowSize": "4",
 		"location": "Pond",
 		"time": "4 PM - 9 AM",
@@ -555,7 +555,7 @@
 	},
 	{
 		"name": "Giant Snakehead",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/0c/NH-Icon-giantsnakehead.png",
 		"shadowSize": "5",
 		"location": "Pond",
 		"time": "9 AM - 4 PM",
@@ -575,7 +575,7 @@
 	},
 	{
 		"name": "Bluegill",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/69/NH-Icon-bluegill.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -613,7 +613,7 @@
 	},
 	{
 		"name": "Yellow Perch",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1d/NH-Icon-yellowperch.png",
 		"shadowSize": "3",
 		"location": "River",
 		"time": "All day",
@@ -639,7 +639,7 @@
 	},
 	{
 		"name": "Black Bass",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e2/NH-Icon-blackbass.png",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "All day",
@@ -677,7 +677,7 @@
 	},
 	{
 		"name": "Tilapia",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/53/NH-Icon-tilapia.png",
 		"shadowSize": "3",
 		"location": "River",
 		"time": "All day",
@@ -701,7 +701,7 @@
 	},
 	{
 		"name": "Pike",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dc/NH-Icon-pike.png",
 		"shadowSize": "5",
 		"location": "River",
 		"time": "All day",
@@ -723,7 +723,7 @@
 	},
 	{
 		"name": "Pond Smelt",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/41/NH-Icon-pondsmelt.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "All day",
@@ -743,7 +743,7 @@
 	},
 	{
 		"name": "Sweetfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/40/NH-Icon-sweetfish.png",
 		"shadowSize": "3",
 		"location": "River",
 		"time": "All day",
@@ -763,7 +763,7 @@
 	},
 	{
 		"name": "Cherry Salmon",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/NH-Icon-cherrysalmon.png",
 		"shadowSize": "3",
 		"location": "River (Clifftop) & Pond",
 		"time": "4 PM - 9 AM",
@@ -791,7 +791,7 @@
 	},
 	{
 		"name": "Char",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/15/NH-Icon-char.png",
 		"shadowSize": "3",
 		"location": "River (Clifftop)",
 		"time": "4 PM - 9 AM",
@@ -819,7 +819,7 @@
 	},
 	{
 		"name": "Golden Trout",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5c/NH-Icon-goldentrout.png",
 		"shadowSize": "3",
 		"location": "River (Clifftop)",
 		"time": "4 PM - 9 AM",
@@ -845,7 +845,7 @@
 	},
 	{
 		"name": "Stringfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-stringfish.png",
 		"shadowSize": "6",
 		"location": "River (Clifftop)",
 		"time": "4 PM - 9 AM",
@@ -867,7 +867,7 @@
 	},
 	{
 		"name": "Salmon",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/NH-Icon-salmon.png",
 		"shadowSize": "4",
 		"location": "River (Mouth)",
 		"time": "All day",
@@ -883,7 +883,7 @@
 	},
 	{
 		"name": "King Salmon",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fd/NH-Icon-kingsalmon.png",
 		"shadowSize": "6",
 		"location": "River (Mouth)",
 		"time": "All day",
@@ -899,7 +899,7 @@
 	},
 	{
 		"name": "Mitten Crab",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e3/NH-Icon-mittencrab.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -919,7 +919,7 @@
 	},
 	{
 		"name": "Guppy",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-guppy.png",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -949,7 +949,7 @@
 	},
 	{
 		"name": "Nibble Fish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/89/NH-Icon-nibblefish.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -973,7 +973,7 @@
 	},
 	{
 		"name": "Angelfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/63/NH-Icon-angelfish.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -999,7 +999,7 @@
 	},
 	{
 		"name": "Betta",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-betta.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -1025,7 +1025,7 @@
 	},
 	{
 		"name": "Neon Tetra",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/da/NH-Icon-neontetra.png",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -1055,7 +1055,7 @@
 	},
 	{
 		"name": "Rainbowfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/68/NH-Icon-rainbowfish.png",
 		"shadowSize": "1",
 		"location": "River",
 		"time": "9 AM - 4 PM",
@@ -1081,7 +1081,7 @@
 	},
 	{
 		"name": "Piranha",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-piranha.png",
 		"shadowSize": "2",
 		"location": "River",
 		"time": "9 AM - 4 PM & 9 PM - 4 AM",
@@ -1103,7 +1103,7 @@
 	},
 	{
 		"name": "Arowana",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/bf/NH-Icon-arowana.png",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -1125,7 +1125,7 @@
 	},
 	{
 		"name": "Dorado",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/NH-Icon-dorado.png",
 		"shadowSize": "5",
 		"location": "River",
 		"time": "4 AM - 9 PM",
@@ -1147,7 +1147,7 @@
 	},
 	{
 		"name": "Gar",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9f/NH-Icon-gar.png",
 		"shadowSize": "6",
 		"location": "Pond",
 		"time": "4 PM - 9 AM",
@@ -1169,7 +1169,7 @@
 	},
 	{
 		"name": "Arapaima",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7f/NH-Icon-arapaima.png",
 		"shadowSize": "6",
 		"location": "River",
 		"time": "4 PM - 9 AM",
@@ -1191,7 +1191,7 @@
 	},
 	{
 		"name": "Saddled Bichir",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a0/NH-Icon-saddledbichir.png",
 		"shadowSize": "4",
 		"location": "River",
 		"time": "9 PM - 4 AM",
@@ -1213,7 +1213,7 @@
 	},
 	{
 		"name": "Sturgeon",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/98/NH-Icon-sturgeon.png",
 		"shadowSize": "6",
 		"location": "River (Mouth)",
 		"time": "All day",
@@ -1241,7 +1241,7 @@
 	},
 	{
 		"name": "Sea Butterfly",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8f/NH-Icon-seabutterfly.png",
 		"shadowSize": "1",
 		"location": "Sea",
 		"time": "All day",
@@ -1263,7 +1263,7 @@
 	},
 	{
 		"name": "Sea Horse",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/55/NH-Icon-seahorse.png",
 		"shadowSize": "1",
 		"location": "Sea",
 		"time": "All day",
@@ -1293,7 +1293,7 @@
 	},
 	{
 		"name": "Clown Fish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-clownfish.png",
 		"shadowSize": "1",
 		"location": "Sea",
 		"time": "All day",
@@ -1319,7 +1319,7 @@
 	},
 	{
 		"name": "Surgeonfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/11/NH-Icon-surgeonfish.png",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "All day",
@@ -1345,7 +1345,7 @@
 	},
 	{
 		"name": "Butterfly Fish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/NH-Icon-butterflyfish.png",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "All day",
@@ -1371,7 +1371,7 @@
 	},
 	{
 		"name": "Napoleonfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6f/NH-Icon-napoleonfish.png",
 		"shadowSize": "6",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1389,7 +1389,7 @@
 	},
 	{
 		"name": "Zebra Turkeyfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-zebraturkeyfish.png",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1419,7 +1419,7 @@
 	},
 	{
 		"name": "Blowfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/39/NH-Icon-blowfish.png",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "9 PM - 4 AM",
@@ -1441,7 +1441,7 @@
 	},
 	{
 		"name": "Puffer Fish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1f/NH-Icon-pufferfish.png",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1461,7 +1461,7 @@
 	},
 	{
 		"name": "Anchovy",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/24/NH-Icon-anchovy.png",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1499,7 +1499,7 @@
 	},
 	{
 		"name": "Horse Mackerel",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/NH-Icon-horsemackerel.png",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "All day",
@@ -1537,7 +1537,7 @@
 	},
 	{
 		"name": "Barred Knifejaw",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8c/NH-Icon-barredknifejaw.png",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1569,7 +1569,7 @@
 	},
 	{
 		"name": "Sea Bass",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/22/NH-Icon-seabass.png",
 		"shadowSize": "5",
 		"location": "Sea",
 		"time": "All day",
@@ -1607,7 +1607,7 @@
 	},
 	{
 		"name": "Red Snapper",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/NH-Icon-redsnapper.png",
 		"shadowSize": "4",
 		"location": "Sea",
 		"time": "All day",
@@ -1645,7 +1645,7 @@
 	},
 	{
 		"name": "Dab",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c6/NH-Icon-dab.png",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1673,7 +1673,7 @@
 	},
 	{
 		"name": "Olive Flounder",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/9/9e/NH-Icon-oliveflounder.png",
 		"shadowSize": "5",
 		"location": "Sea",
 		"time": "All day",
@@ -1711,7 +1711,7 @@
 	},
 	{
 		"name": "Squid",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3b/NH-Icon-squid.png",
 		"shadowSize": "3",
 		"location": "Sea",
 		"time": "All day",
@@ -1743,7 +1743,7 @@
 	},
 	{
 		"name": "Moray Eel",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e5/NH-Icon-morayeel.png",
 		"shadowSize": "Narrow",
 		"location": "Sea",
 		"time": "All day",
@@ -1763,7 +1763,7 @@
 	},
 	{
 		"name": "Ribbon Eel",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ac/NH-Icon-ribboneel.png",
 		"shadowSize": "Narrow",
 		"location": "Sea",
 		"time": "All day",
@@ -1787,7 +1787,7 @@
 	},
 	{
 		"name": "Tuna",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/50/NH-Icon-tuna.png",
 		"shadowSize": "6",
 		"location": "Pier",
 		"time": "All day",
@@ -1813,7 +1813,7 @@
 	},
 	{
 		"name": "Blue Marlin",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2f/NH-Icon-bluemarlin.png",
 		"shadowSize": "6",
 		"location": "Pier",
 		"time": "All day",
@@ -1845,7 +1845,7 @@
 	},
 	{
 		"name": "Giant Trevally",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7b/NH-Icon-gianttrevally.png",
 		"shadowSize": "5",
 		"location": "Pier",
 		"time": "All day",
@@ -1871,7 +1871,7 @@
 	},
 	{
 		"name": "Mahi-mahi",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/82/NH-Icon-mahimahi.png",
 		"shadowSize": "5",
 		"location": "Pier",
 		"time": "All day",
@@ -1897,7 +1897,7 @@
 	},
 	{
 		"name": "Ocean Sunfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/52/NH-Icon-oceansunfish.png",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1917,7 +1917,7 @@
 	},
 	{
 		"name": "Ray",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/db/NH-Icon-ray.png",
 		"shadowSize": "5",
 		"location": "Sea",
 		"time": "4 AM - 9 PM",
@@ -1939,7 +1939,7 @@
 	},
 	{
 		"name": "Saw Shark",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/73/NH-Icon-sawshark.png",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -1961,7 +1961,7 @@
 	},
 	{
 		"name": "Hammerhead Shark",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/25/NH-Icon-hammerheadshark.png",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -1983,7 +1983,7 @@
 	},
 	{
 		"name": "Great White Shark",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/38/NH-Icon-greatwhiteshark.png",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -2005,7 +2005,7 @@
 	},
 	{
 		"name": "Whale Shark",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1c/NH-Icon-whaleshark.png",
 		"shadowSize": "6 (Fin)",
 		"location": "Sea",
 		"time": "All day",
@@ -2027,7 +2027,7 @@
 	},
 	{
 		"name": "Suckerfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b9/NH-Icon-suckerfish.png",
 		"shadowSize": "4 (Fin)",
 		"location": "Sea",
 		"time": "All day",
@@ -2049,7 +2049,7 @@
 	},
 	{
 		"name": "Football Fish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a5/NH-Icon-footballfish.png",
 		"shadowSize": "4",
 		"location": "Sea",
 		"time": "4 PM - 9 AM",
@@ -2073,7 +2073,7 @@
 	},
 	{
 		"name": "Oarfish",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/33/NH-Icon-oarfish.png",
 		"shadowSize": "6",
 		"location": "Sea",
 		"time": "All day",
@@ -2099,7 +2099,7 @@
 	},
 	{
 		"name": "Barreleye",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c7/NH-Icon-barreleye.png",
 		"shadowSize": "2",
 		"location": "Sea",
 		"time": "9 PM - 4 AM",
@@ -2137,7 +2137,7 @@
 	},
 	{
 		"name": "Coelacanth",
-		"image": "",
+		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/31/NH-Icon-coelacanth.png",
 		"shadowSize": "6",
 		"location": "Sea (Rainy Days)",
 		"time": "All day",
