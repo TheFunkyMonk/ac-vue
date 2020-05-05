@@ -108,8 +108,8 @@ export default {
       subtitle: "Animal Crossing: New Horizons",
       fish: FishData,
       bugs: BugData,
-      currentOrder: "name",
-      currentFilter: "all",
+      currentOrder: "price",
+      currentFilter: "available",
       hemisphere: "north",
       currentMonth: new Date().getMonth() + 1
     };
