@@ -59,6 +59,16 @@ export default {
     orderByLocation(items) {
       return this.orderByName(items);
     },
+    isAvailable: (item, hemisphere) => {
+      const months = item.month[hemisphere];
+      const currentMonth = new Date().getMonth() + 1;
+      let isAvailable = false;
+
+      months.forEach(month => {
+        if (month === currentMonth && !isAvailable) isAvailable = true;
+      });
+      return isAvailable;
+    },
     isLeaving: (item, hemisphere) => {
       const months = item.month[hemisphere];
       const currentMonth = new Date().getMonth() + 1;
@@ -76,13 +86,21 @@ export default {
       const filter = this.filter;
       const sortMethod =
         "orderBy" + this.order.charAt(0).toUpperCase() + this.order.slice(1);
+      const filterMethod =
+        "is" + filter.charAt(0).toUpperCase() + filter.slice(1);
+      let finalItems;
 
-      if (filter === "leaving") {
-        return this[sortMethod](
-          items.filter(item => this.isLeaving(item, this.hemisphere))
-        );
+      switch (filter) {
+        case "leaving":
+        case "available":
+          finalItems = this[sortMethod](
+            items.filter(item => this[filterMethod](item, this.hemisphere))
+          );
+          break;
+        default:
+          finalItems = this[sortMethod](items);
       }
-      return this[sortMethod](items);
+      return finalItems;
     }
   }
 };

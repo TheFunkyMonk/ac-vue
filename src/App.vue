@@ -58,7 +58,7 @@
                 class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 pl-2 pr-8 appearance-none"
               >
                 <option value="all">All</option>
-                <!-- <option value="available">Available this month</option> -->
+                <option value="available">Available this month</option>
                 <option value="leaving">Leaving this month</option>
                 <!-- <option value="arriving">Arriving this month</option> -->
               </select>
