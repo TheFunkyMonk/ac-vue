@@ -10,34 +10,23 @@
       >
         <h1 class="text-3xl md:text-4xl font-black text-white my-8">{{ title }}</h1>
 
-        <section v-if="errored">
-          <p
-            class="text-white font-bold"
-          >We're sorry, we're not able to retrieve this information at the moment, please try back later</p>
-        </section>
-
-        <section v-else>
-          <div v-if="loading">
-            <p class="text-white font-bold">Loading...</p>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full sm:w-1/2 mb-4 sm:mb-0 px-4">
+            <CardList title="Fish" v-bind:data="fish" />
           </div>
-
-          <div v-else class="flex flex-wrap -mx-4">
-            <div class="w-full sm:w-1/2 mb-4 sm:mb-0 px-4">
-              <CardList title="Fish" v-bind:errored="errored" v-bind:data="fish" />
-            </div>
-            <div class="w-full sm:w-1/2 mb-4 sm:mb-0 px-4">
-              <CardList title="Bugs" v-bind:errored="errored" v-bind:data="bugs" />
-            </div>
+          <div class="w-full sm:w-1/2 mb-4 sm:mb-0 px-4">
+            <CardList title="Bugs" v-bind:data="bugs" />
           </div>
-        </section>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import axios from "axios";
 import CardList from "./components/CardList.vue";
+import FishData from "./data/fish.json";
+import BugData from "./data/bugs.json";
 
 export default {
   name: "App",
@@ -47,31 +36,9 @@ export default {
   data() {
     return {
       title: "ACNH Creature Collector",
-      fish: null,
-      bugs: null,
-      loading: true,
-      errored: false
+      fish: FishData,
+      bugs: BugData
     };
-  },
-  mounted() {
-    axios
-      .get("https://www.xhsun.me/acnh-api/data/v1/fish.json")
-      .then(response => {
-        this.fish = response.data;
-
-        axios
-          .get("https://www.xhsun.me/acnh-api/data/v1/bug.json")
-          .then(response => (this.bugs = response.data))
-          .catch(error => {
-            console.log(error);
-            this.errored = true;
-          });
-      })
-      .catch(error => {
-        console.log(error);
-        this.errored = true;
-      })
-      .finally(() => (this.loading = false));
   }
 };
 </script>

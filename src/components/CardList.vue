@@ -18,8 +18,6 @@ export default {
   },
   props: {
     title: String,
-    loading: Boolean,
-    errored: Boolean,
     data: Array
   }
 };
