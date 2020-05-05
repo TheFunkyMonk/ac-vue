@@ -18,21 +18,33 @@
 
         <div class="flex flex-wrap bg-green-800 text-white rounded-lg px-4 py-2 mb-8 text-xs">
           <div class="w-full xs:w-1/2 px-2 my-4">
-            <p class="text-xs uppercase tracking-wider font-black">Filter</p>
-            <p class>Coming soon</p>
+            <p class="text-xs uppercase tracking-wider font-black">Sort</p>
+            <div class="relative text-white">
+              <div class="absolute top-0 right-0 mt-4 mr-3">
+                <font-awesome-icon icon="caret-down" class="block mt-px" />
+              </div>
+              <select
+                v-model="currentOrder"
+                class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 px-2 appearance-none"
+              >
+                <option value="name">Name</option>
+                <option value="price">Price</option>
+                <option value="location">Location</option>
+              </select>
+            </div>
           </div>
           <div class="w-full xs:w-1/2 px-2 xs:pl-4 my-4">
-            <p class="text-xs uppercase tracking-wider font-black">Sort</p>
+            <p class="text-xs uppercase tracking-wider font-black">Filter</p>
             <p class>Coming soon</p>
           </div>
         </div>
 
         <div class="flex flex-wrap -mx-4">
           <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
-            <CardList title="Fish" v-bind:data="fish" />
+            <CardList title="Fish" v-bind:data="fish" v-bind:order="currentOrder" />
           </div>
           <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
-            <CardList title="Insects" v-bind:data="bugs" />
+            <CardList title="Insects" v-bind:data="bugs" v-bind:order="currentOrder" />
           </div>
         </div>
       </div>
@@ -56,7 +68,8 @@ export default {
       abbr: "ACNH",
       subtitle: "Animal Crossing: New Horizons",
       fish: FishData,
-      bugs: BugData
+      bugs: BugData,
+      currentOrder: "name"
     };
   }
 };
