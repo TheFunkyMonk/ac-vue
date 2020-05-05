@@ -32,13 +32,14 @@
       </p>
       <p class="text-xs my-0">
         <span class="font-bold">Months Available</span>
-        : {{ item.month[hemisphere] }}
+        : {{ convertMonthsToText(item.month[hemisphere]) }}
       </p>
     </div>
   </div>
 </template>
 
 <script>
+import MonthData from "../data/months.json";
 export default {
   name: "Card",
   props: {
@@ -46,6 +47,11 @@ export default {
     hemisphere: String,
     leaving: Boolean
   },
-  methods: {}
+  methods: {
+    convertMonthsToText: months => {
+      if (months.length === 12) return "Year round";
+      return months.map(month => MonthData[month - 1 || 0].abbr).join(", ");
+    }
+  }
 };
 </script>
