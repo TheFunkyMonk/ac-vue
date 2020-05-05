@@ -20,12 +20,8 @@
         : {{ item.time }}
       </p>
       <p class="text-xs my-0">
-        <span class="font-bold">Northern Months</span>
-        : {{ item.month.north }}
-      </p>
-      <p class="text-xs my-0">
-        <span class="font-bold">Southern Months</span>
-        : {{ item.month.south }}
+        <span class="font-bold">Months Available</span>
+        : {{ item.month[hemisphere] }}
       </p>
     </div>
   </div>
@@ -35,7 +31,8 @@
 export default {
   name: "Card",
   props: {
-    item: Object
+    item: Object,
+    hemisphere: String
   }
 };
 </script>

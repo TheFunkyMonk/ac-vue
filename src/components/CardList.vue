@@ -9,7 +9,7 @@
     </div>
     <div v-show="active">
       <section v-for="item in orderedItems(data)" v-bind:key="item.name">
-        <Card v-bind:item="item" />
+        <Card v-bind:item="item" v-bind:hemisphere="hemisphere" />
       </section>
     </div>
   </div>
@@ -26,7 +26,8 @@ export default {
   props: {
     title: String,
     data: Array,
-    order: String
+    order: String,
+    hemisphere: String
   },
   data() {
     return {
