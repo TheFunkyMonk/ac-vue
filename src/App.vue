@@ -5,7 +5,10 @@
       rel="stylesheet"
     />
     <div class="p-4 md:p-8 bg-orange-200 min-h-screen">
-      <div class="rounded-lg bg-green-500 max-w-5xl mx-auto px-6 py-2 md:px-8 antialiased relative">
+      <div class="bg-leaf z-10 fixed top-0 left-0 w-full h-full"></div>
+      <div
+        class="rounded-lg bg-green-500 max-w-5xl mx-auto px-6 py-2 md:px-8 antialiased relative z-20 shadow-2xl border border-green-600"
+      >
         <div class="absolute top-0 right-0 mt-4 mr-8 text-white">
           <div class="absolute top-0 right-0 mt-4 mr-3">
             <font-awesome-icon icon="caret-down" class="block mt-px" />
@@ -18,13 +21,13 @@
             <option value="south">Southern Hemisphere</option>
           </select>
         </div>
-        <div class="mt-20 mb-8 md:mb-12 md:text-center">
-          <h2 class="text-xs uppercase tracking-wider font-black text-white mb-1 sm:-mb-1">
+        <div class="mt-20 mb-8 md:mb-16 md:text-center">
+          <h2 class="text-xs uppercase tracking-wider font-black text-green-800 mb-1 sm:-mb-1">
             <span class="inline xs:hidden">{{ abbr }}</span>
             <span class="hidden xs:inline">{{ subtitle }}</span>
           </h2>
           <h1
-            class="text-3xl xs:text-5xl leading-none sm:leading-normal font-black text-white"
+            class="text-3xl xs:text-6xl leading-none sm:leading-normal font-black text-white"
           >{{ title }}</h1>
         </div>
 
@@ -39,7 +42,7 @@
               </div>
               <select
                 v-model="currentOrder"
-                class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 pl-2 pr-8 appearance-none"
+                class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 xs:py-2 pl-2 pr-8 appearance-none rounded-md"
               >
                 <option value="name">Name</option>
                 <option value="price">Price</option>
@@ -55,7 +58,7 @@
               </div>
               <select
                 v-model="currentFilter"
-                class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 pl-2 pr-8 appearance-none"
+                class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 xs:py-2 pl-2 pr-8 appearance-none rounded-md"
               >
                 <option value="all">All</option>
                 <option value="available">Available in {{ monthStringFromNum(currentMonth) }}</option>
@@ -106,7 +109,7 @@ export default {
   data() {
     return {
       title: "Critter Collector",
-      abbr: "ACNH",
+      abbr: "Animal Crossing",
       subtitle: "Animal Crossing: New Horizons",
       fish: FishData,
       bugs: BugData,
@@ -146,5 +149,8 @@ export default {
 ::selection {
   background: theme("colors.black");
   color: theme("colors.white");
+}
+.bg-leaf {
+  background: url("img/leaf-tile.jpg");
 }
 </style>
