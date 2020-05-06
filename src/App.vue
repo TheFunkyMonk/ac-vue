@@ -179,6 +179,6 @@ export default {
   color: theme("colors.white");
 }
 .bg-leaf {
-  background: url("img/leaf-tile.jpg");
+  background: url("assets/img/leaf-tile.jpg");
 }
 </style>
