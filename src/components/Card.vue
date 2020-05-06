@@ -34,6 +34,10 @@
         <span class="font-bold">Location</span>
         : {{ item.location }}
       </p>
+      <p v-if="item.shadowSize" class="text-xs my-0">
+        <span class="font-bold">Shadow Size</span>
+        : {{ item.shadowSize }}
+      </p>
       <p class="text-xs my-0">
         <span class="font-bold">Time</span>
         : {{ item.time }}

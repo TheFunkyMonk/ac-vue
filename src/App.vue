@@ -50,6 +50,7 @@
                   v-model="currentOrder"
                   class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 xs:py-2 pl-3 pr-8 appearance-none rounded-md"
                 >
+                  <option value="id">ID (in-game)</option>
                   <option value="name">Name</option>
                   <option value="price">Price</option>
                   <option value="location">Location</option>
@@ -135,7 +136,7 @@ export default {
       showSelected: localStorage.showSelected
         ? JSON.parse(localStorage.showSelected)
         : true,
-      currentOrder: localStorage.currentOrder || "price",
+      currentOrder: localStorage.currentOrder || "id",
       currentFilter: localStorage.currentFilter || "available",
       currentHemisphere: localStorage.currentHemisphere || "north",
       selectedItems: localStorage.selectedItems

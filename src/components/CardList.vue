@@ -58,6 +58,9 @@ export default {
           : 0;
       });
     },
+    orderById(items) {
+      return items;
+    },
     orderByLocation(items) {
       return this.orderByName(items);
     },
