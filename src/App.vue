@@ -11,7 +11,7 @@
             <font-awesome-icon icon="caret-down" class="block mt-px" />
           </div>
           <select
-            v-model="hemisphere"
+            v-model="currentHemisphere"
             class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 pl-2 pr-8 appearance-none"
           >
             <option value="north">Northern Hemisphere</option>
@@ -72,7 +72,7 @@
               v-bind:data="fish"
               v-bind:order="currentOrder"
               v-bind:filter="currentFilter"
-              v-bind:hemisphere="hemisphere"
+              v-bind:hemisphere="currentHemisphere"
             />
           </div>
           <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
@@ -81,7 +81,7 @@
               v-bind:data="bugs"
               v-bind:order="currentOrder"
               v-bind:filter="currentFilter"
-              v-bind:hemisphere="hemisphere"
+              v-bind:hemisphere="currentHemisphere"
             />
           </div>
         </div>
@@ -108,12 +108,23 @@ export default {
       subtitle: "Animal Crossing: New Horizons",
       fish: FishData,
       bugs: BugData,
-      currentOrder: "price",
-      currentFilter: "available",
-      hemisphere: "north",
+      currentOrder: localStorage.currentOrder || "price",
+      currentFilter: localStorage.currentFilter || "available",
+      currentHemisphere: localStorage.currentHemisphere || "north",
       currentMonth: new Date().getMonth() + 1,
       currentMonthString: MonthData[new Date().getMonth()].full
     };
+  },
+  watch: {
+    currentOrder(newVal) {
+      localStorage.currentOrder = newVal;
+    },
+    currentFilter(newVal) {
+      localStorage.currentFilter = newVal;
+    },
+    currentHemisphere(newVal) {
+      localStorage.currentHemisphere = newVal;
+    }
   }
 };
 </script>
