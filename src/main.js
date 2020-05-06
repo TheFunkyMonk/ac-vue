@@ -11,7 +11,7 @@ library.add(faPlus, faMinus, faCaretDown, faCheckCircle)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(VueGtag, {
-  config: { id: "UA-22060307-2" }
+  config: { id: "UA-165690254-1" }
 })
 
 Vue.config.productionTip = false
