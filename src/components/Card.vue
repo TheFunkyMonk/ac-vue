@@ -3,7 +3,7 @@
     v-on:click="toggleSelected(item.name)"
     class="my-4 md:my-8 block rounded-lg overflow-hidden cursor-pointer relative"
   >
-    <div v-if="selectedItems[item.name] === 1" class="absolute top-0 left-0 w-full h-full z-20">
+    <div v-if="selectedItems[item.name]" class="absolute top-0 left-0 w-full h-full z-20">
       <div
         class="absolute top-0 left-0 w-full h-full z-20 flex items-center justify-center text-green-400"
       >
@@ -22,10 +22,7 @@
         />
         <h2 class="text-base font-medium my-2">{{ item.name }}</h2>
       </div>
-      <p
-        v-if="leaving"
-        class="inline-block text-xs my-2 px-2 leading-loose p-0 rounded-full bg-blue-600 text-white"
-      >Leaving Soon!</p>
+      <input type="checkbox" class="pointer-events-none" v-if="!selectedItems[item.name]" />
     </div>
     <div class="px-4 bg-white py-4">
       <p class="text-xs my-0">
@@ -40,10 +37,12 @@
         <span class="font-bold">Time</span>
         : {{ item.time }}
       </p>
-      <p class="text-xs my-0">
-        <span class="font-bold">Months Available</span>
-        : {{ convertMonthsToText(item.month[hemisphere]) }}
-      </p>
+      <div class="mt-2 -ml-1">
+        <p
+          v-if="leaving"
+          class="inline-block text-xs px-2 leading-loose p-0 rounded-full bg-blue-600 text-white"
+        >Leaving Soon!</p>
+      </div>
     </div>
   </div>
 </template>

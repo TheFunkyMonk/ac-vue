@@ -4,10 +4,8 @@
       @click.prevent="active = !active"
       class="border-b border-white flex flex-row items-center justify-between cursor-pointer text-white transition duration-300 hover:text-green-200"
     >
-      <h2
-        class="text-xs uppercase tracking-wider font-black my-2"
-      >{{ title }} by {{ order }} ({{ filter }})</h2>
-      <font-awesome-icon v-bind:icon="active ? 'minus' : 'plus'" class="text-white" />
+      <h2 class="text-xs uppercase tracking-wider font-black my-2">{{ title }} ({{ filter }})</h2>
+      <font-awesome-icon v-bind:icon="active ? 'minus' : 'plus'" class="text-white xs:hidden" />
     </div>
     <div v-show="active">
       <section v-for="item in filteredItems(data)" v-bind:key="item.name">
@@ -107,7 +105,3 @@ export default {
   }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
