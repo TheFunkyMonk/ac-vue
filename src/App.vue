@@ -7,7 +7,7 @@
       >
         <div class="absolute top-0 right-0 mt-4 mr-8 text-white">
           <div class="absolute top-0 right-0 mt-4 mr-3">
-            <font-awesome-icon icon="caret-down" class="block mt-px" />
+            <font-awesome-icon icon="caret-down" class="block -mt-px" />
           </div>
           <select
             v-model="currentHemisphere"
@@ -28,11 +28,11 @@
         </div>
 
         <div
-          v-bind:class="'bg-green-800 text-white rounded-lg md:px-1 text-xs' + (showFilters ? ' mb-8' : ' mb-8' )"
+          v-bind:class="'bg-green-800 text-white rounded-lg md:px-1 text-base' + (showFilters ? ' mb-8' : ' mb-8' )"
         >
           <div
             @click.prevent="showFilters = !showFilters"
-            v-bind:class="'flex flex-row items-center justify-between cursor-pointer text-white md:mx-1 py-2 px-3 relative z-20' + (showFilters ? ' -mb-6' : '')"
+            v-bind:class="'flex flex-row items-center justify-between cursor-pointer text-white mx-1 py-2 px-3 relative z-20' + (showFilters ? ' -mb-6' : '')"
           >
             <h2 class="text-xs uppercase tracking-wider font-black my-2">
               <span v-bind:class="showFilters ? 'text-transparent' : ''">Filters</span>
@@ -41,10 +41,10 @@
           </div>
           <div v-if="showFilters" class="flex flex-wrap pb-2 md:pb-4 relative z-10">
             <div class="w-full xs:w-1/3 px-4 my-2">
-              <p class="text-xs uppercase tracking-wider font-black">Sort</p>
+              <p class="text-xs uppercase tracking-wider font-black">Order By</p>
               <div class="relative text-white">
                 <div class="absolute top-0 right-0 mt-4 mr-3">
-                  <font-awesome-icon icon="caret-down" class="block mt-px" />
+                  <font-awesome-icon icon="caret-down" class="block -mt-px" />
                 </div>
                 <select
                   v-model="currentOrder"
@@ -57,10 +57,10 @@
               </div>
             </div>
             <div class="w-full xs:w-1/3 px-4 my-2">
-              <p class="text-xs uppercase tracking-wider font-black">Filter</p>
+              <p class="text-xs uppercase tracking-wider font-black">Availability</p>
               <div class="relative text-white">
                 <div class="absolute top-0 right-0 mt-4 mr-3">
-                  <font-awesome-icon icon="caret-down" class="block mt-px" />
+                  <font-awesome-icon icon="caret-down" class="block -mt-px" />
                 </div>
                 <select
                   v-model="currentFilter"
