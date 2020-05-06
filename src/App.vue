@@ -73,6 +73,7 @@
               v-bind:order="currentOrder"
               v-bind:filter="currentFilter"
               v-bind:hemisphere="currentHemisphere"
+              v-bind:selectedItems="selectedItems"
             />
           </div>
           <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
@@ -82,6 +83,7 @@
               v-bind:order="currentOrder"
               v-bind:filter="currentFilter"
               v-bind:hemisphere="currentHemisphere"
+              v-bind:selectedItems="selectedItems"
             />
           </div>
         </div>
@@ -111,6 +113,9 @@ export default {
       currentOrder: localStorage.currentOrder || "price",
       currentFilter: localStorage.currentFilter || "available",
       currentHemisphere: localStorage.currentHemisphere || "north",
+      selectedItems: localStorage.selectedItems
+        ? JSON.parse(localStorage.selectedItems)
+        : {},
       currentMonth: new Date().getMonth() + 1,
       currentMonthString: MonthData[new Date().getMonth()].full
     };
@@ -124,6 +129,12 @@ export default {
     },
     currentHemisphere(newVal) {
       localStorage.currentHemisphere = newVal;
+    },
+    selectedItems: {
+      deep: true,
+      handler(newVal) {
+        localStorage.selectedItems = JSON.stringify(newVal);
+      }
     }
   }
 };

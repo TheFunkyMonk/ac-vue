@@ -1,8 +1,18 @@
 <template>
   <div
-    class="my-4 md:my-8 block rounded-lg overflow-hidden transform hover:-translate-y-1 hover:shadow-xl transition duration-200 cursor-pointer"
+    v-on:click="toggleSelected(item.name)"
+    class="my-4 md:my-8 block rounded-lg overflow-hidden cursor-pointer relative"
   >
-    <div class="px-4 bg-blue-200 p-px flex flex-wrap justify-between items-center">
+    <div v-if="selectedItems[item.name] === 1" class="absolute top-0 left-0 w-full h-full z-20">
+      <div
+        class="absolute top-0 left-0 w-full h-full z-20 flex items-center justify-center text-green-400"
+      >
+        <font-awesome-icon icon="check-circle" size="3x" />
+      </div>
+      <div class="absolute top-0 left-0 w-full h-full bg-white opacity-75 z-10"></div>
+    </div>
+
+    <div class="px-4 bg-blue-200 p-px flex flex-wrap justify-between items-center relative z-10">
       <div class="flex items-center">
         <img
           v-if="item.image"
@@ -45,12 +55,16 @@ export default {
   props: {
     item: Object,
     hemisphere: String,
-    leaving: Boolean
+    leaving: Boolean,
+    selectedItems: Object
   },
   methods: {
     convertMonthsToText: months => {
       if (months.length === 12) return "Year round";
       return months.map(month => MonthData[month - 1 || 0].abbr).join(", ");
+    },
+    toggleSelected(name) {
+      this.$set(this.selectedItems, name, 1 - (this.selectedItems[name] | 0));
     }
   }
 };
