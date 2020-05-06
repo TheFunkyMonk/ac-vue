@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <div class="p-4 md:p-8 bg-orange-200 min-h-screen">
+    <div class="p-4 md:p-12 bg-orange-200 min-h-screen">
       <div class="bg-leaf z-10 fixed top-0 left-0 w-full h-full"></div>
       <div
         class="rounded-lg bg-green-500 max-w-5xl mx-auto px-6 py-2 md:px-8 antialiased relative z-20 shadow-2xl border border-green-600"
