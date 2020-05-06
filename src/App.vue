@@ -92,6 +92,7 @@
               v-bind:filter="currentFilter"
               v-bind:hemisphere="currentHemisphere"
               v-bind:selectedItems="selectedItems"
+              v-bind:expandedItems="expandedItems"
               v-bind:showSelected="showSelected"
             />
           </div>
@@ -103,6 +104,7 @@
               v-bind:filter="currentFilter"
               v-bind:hemisphere="currentHemisphere"
               v-bind:selectedItems="selectedItems"
+              v-bind:expandedItems="expandedItems"
               v-bind:showSelected="showSelected"
             />
           </div>
@@ -142,6 +144,9 @@ export default {
       selectedItems: localStorage.selectedItems
         ? JSON.parse(localStorage.selectedItems)
         : {},
+      expandedItems: localStorage.expandedItems
+        ? JSON.parse(localStorage.expandedItems)
+        : {},
       currentMonth: new Date().getMonth()
     };
   },
@@ -168,6 +173,13 @@ export default {
       deep: true,
       handler(newVal) {
         localStorage.selectedItems = JSON.stringify(newVal);
+      }
+    },
+    expandedItems: {
+      deep: true,
+      handler(newVal) {
+        localStorage.expandedItems = JSON.stringify(newVal);
+        console.log(newVal);
       }
     }
   }

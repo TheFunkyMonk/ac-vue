@@ -14,6 +14,7 @@
           v-bind:hemisphere="hemisphere"
           v-bind:leaving="isLeaving(item, hemisphere)"
           v-bind:selectedItems="selectedItems"
+          v-bind:expandedItems="expandedItems"
           v-bind:showSelected="showSelected"
         />
       </section>
@@ -36,6 +37,7 @@ export default {
     filter: String,
     hemisphere: String,
     selectedItems: Object,
+    expandedItems: Object,
     showSelected: Boolean
   },
   data() {
