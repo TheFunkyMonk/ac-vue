@@ -36,7 +36,7 @@
         >
           <div
             @click.prevent="showFilters = !showFilters"
-            v-bind:class="'flex flex-row items-center justify-between cursor-pointer text-white md:mx-1 py-2 px-4 relative z-20' + (showFilters ? ' -mb-6' : '')"
+            v-bind:class="'flex flex-row items-center justify-between cursor-pointer text-white md:mx-1 py-2 px-3 relative z-20' + (showFilters ? ' -mb-6' : '')"
           >
             <h2 class="text-xs uppercase tracking-wider font-black my-2">
               <span v-bind:class="showFilters ? 'text-transparent' : ''">Filters</span>
