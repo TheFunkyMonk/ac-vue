@@ -5,7 +5,7 @@
       class="border-b border-white flex flex-row items-center justify-between cursor-pointer text-white transition duration-300 hover:text-green-200"
     >
       <h2 class="text-xs uppercase tracking-wider font-black my-2">{{ title }} ({{ filter }})</h2>
-      <font-awesome-icon v-bind:icon="active ? 'minus' : 'plus'" class="text-white xs:hidden" />
+      <font-awesome-icon v-bind:icon="active ? 'minus' : 'plus'" class="text-white" />
     </div>
     <div v-show="active">
       <section v-for="item in filteredItems(data)" v-bind:key="item.name">
@@ -14,6 +14,7 @@
           v-bind:hemisphere="hemisphere"
           v-bind:leaving="isLeaving(item, hemisphere)"
           v-bind:selectedItems="selectedItems"
+          v-bind:showSelected="showSelected"
         />
       </section>
     </div>
@@ -34,7 +35,8 @@ export default {
     order: String,
     filter: String,
     hemisphere: String,
-    selectedItems: Object
+    selectedItems: Object,
+    showSelected: Boolean
   },
   data() {
     return {

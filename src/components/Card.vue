@@ -1,6 +1,7 @@
 <template>
   <div
     v-on:click="toggleSelected(item.name)"
+    v-if="showSelected  || (!selectedItems[item.name] && !showSelected)"
     class="my-4 md:my-8 block rounded-lg overflow-hidden cursor-pointer relative"
   >
     <div v-if="selectedItems[item.name]" class="absolute top-0 left-0 w-full h-full z-20">
@@ -55,7 +56,8 @@ export default {
     item: Object,
     hemisphere: String,
     leaving: Boolean,
-    selectedItems: Object
+    selectedItems: Object,
+    showSelected: Boolean
   },
   methods: {
     convertMonthsToText: months => {
