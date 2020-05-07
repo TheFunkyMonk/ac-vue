@@ -53,6 +53,11 @@
           <span class="font-bold">Shadow Size</span>
           : {{ item.shadowSize }}
         </p>
+        <p class="text-xs my-0">
+          <span class="font-bold">Months Available</span>
+          :
+          <span v-html="convertMonthsToText(item.month[hemisphere], true)"></span>
+        </p>
         <div class="mt-2 -ml-1">
           <p
             v-if="leaving"
@@ -77,9 +82,19 @@ export default {
     showSelected: Boolean
   },
   methods: {
-    convertMonthsToText: months => {
-      if (months.length === 12) return "Year round";
-      return months.map(month => MonthData[month - 1 || 0].abbr).join(", ");
+    convertMonthsToText: (months, boldCurrent) => {
+      if (months.length === 12)
+        return "<span class='font-bold text-green-500'>Year round</span>";
+      const currentMonth = MonthData[new Date().getMonth()].abbr;
+      const monthsStr = months
+        .map(month => MonthData[month - 1 || 0].abbr)
+        .join(", ");
+      return boldCurrent
+        ? monthsStr.replace(
+            currentMonth,
+            "<span class='font-bold text-green-500'>" + currentMonth + "</span>"
+          )
+        : monthsStr;
     },
     toggleSelected(name) {
       this.$set(this.selectedItems, name, 1 - (this.selectedItems[name] | 0));
