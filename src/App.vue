@@ -76,8 +76,12 @@
             <div class="w-full xs:w-1/3 px-4 my-2">
               <p class="text-xs uppercase tracking-wider font-black">Options</p>
               <div class="relative text-white mt-2 text-sm sub">
-                <input type="checkbox" id="show-selected" class="mr-2" v-model="showSelected" />
-                <label for="show-selected">Show collected items</label>
+                <input type="checkbox" id="hide-selected" class="mr-2" v-model="hideSelected" />
+                <label for="hide-selected">Hide collected items</label>
+              </div>
+              <div class="relative text-white mt-1 text-sm sub">
+                <input type="checkbox" id="compact-layout" class="mr-2" v-model="compactLayout" />
+                <label for="compact-layout">Compact layout</label>
               </div>
             </div>
           </div>
@@ -93,7 +97,8 @@
               v-bind:hemisphere="currentHemisphere"
               v-bind:selectedItems="selectedItems"
               v-bind:expandedItems="expandedItems"
-              v-bind:showSelected="showSelected"
+              v-bind:hideSelected="hideSelected"
+              v-bind:compactLayout="compactLayout"
             />
           </div>
           <div class="w-full xs:w-1/2 mb-4 xs:mb-0 px-4">
@@ -105,7 +110,8 @@
               v-bind:hemisphere="currentHemisphere"
               v-bind:selectedItems="selectedItems"
               v-bind:expandedItems="expandedItems"
-              v-bind:showSelected="showSelected"
+              v-bind:hideSelected="hideSelected"
+              v-bind:compactLayout="compactLayout"
             />
           </div>
         </div>
@@ -135,9 +141,12 @@ export default {
         : true,
       fish: FishData,
       bugs: BugData,
-      showSelected: localStorage.showSelected
-        ? JSON.parse(localStorage.showSelected)
-        : true,
+      hideSelected: localStorage.hideSelected
+        ? JSON.parse(localStorage.hideSelected)
+        : false,
+      compactLayout: localStorage.compactLayout
+        ? JSON.parse(localStorage.compactLayout)
+        : false,
       currentOrder: localStorage.currentOrder || "id",
       currentFilter: localStorage.currentFilter || "available",
       currentHemisphere: localStorage.currentHemisphere || "north",
@@ -157,8 +166,11 @@ export default {
     showFilters(newVal) {
       localStorage.showFilters = newVal;
     },
-    showSelected(newVal) {
-      localStorage.showSelected = newVal;
+    hideSelected(newVal) {
+      localStorage.hideSelected = newVal;
+    },
+    compactLayout(newVal) {
+      localStorage.compactLayout = newVal;
     },
     currentOrder(newVal) {
       localStorage.currentOrder = newVal;
@@ -179,7 +191,6 @@ export default {
       deep: true,
       handler(newVal) {
         localStorage.expandedItems = JSON.stringify(newVal);
-        console.log(newVal);
       }
     }
   }

@@ -15,7 +15,8 @@
           v-bind:leaving="isLeaving(item, hemisphere)"
           v-bind:selectedItems="selectedItems"
           v-bind:expandedItems="expandedItems"
-          v-bind:showSelected="showSelected"
+          v-bind:hideSelected="hideSelected"
+          v-bind:compactLayout="compactLayout"
         />
       </section>
     </div>
@@ -38,7 +39,8 @@ export default {
     hemisphere: String,
     selectedItems: Object,
     expandedItems: Object,
-    showSelected: Boolean
+    hideSelected: Boolean,
+    compactLayout: Boolean
   },
   data() {
     return {

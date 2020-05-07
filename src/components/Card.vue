@@ -1,6 +1,6 @@
 <template>
   <div
-    v-if="showSelected  || (!selectedItems[item.name] && !showSelected)"
+    v-if="!hideSelected  || (!selectedItems[item.name] && hideSelected)"
     class="my-4 md:my-8 block rounded-lg overflow-hidden cursor-pointer relative"
   >
     <div
@@ -58,12 +58,11 @@
           :
           <span v-html="convertMonthsToText(item.month[hemisphere], true)"></span>
         </p>
-        <div class="mt-2 -ml-1">
-          <p
-            v-if="leaving"
-            class="inline-block text-xs px-2 leading-loose p-0 rounded-full bg-blue-600 text-white"
-          >Leaving Soon!</p>
-        </div>
+      </div>
+      <div class="mt-2 -ml-1" v-if="leaving">
+        <p
+          class="inline-block text-xs px-2 leading-loose p-0 rounded-full bg-blue-600 text-white"
+        >Leaving Soon!</p>
       </div>
     </div>
   </div>
@@ -79,7 +78,20 @@ export default {
     leaving: Boolean,
     selectedItems: Object,
     expandedItems: Object,
-    showSelected: Boolean
+    hideSelected: Boolean,
+    compactLayout: Boolean
+  },
+  watch: {
+    compactLayout(newVal) {
+      newVal
+        ? this.$set(this.expandedItems, this.item.name, 0)
+        : this.$set(this.expandedItems, this.item.name, 1);
+    }
+  },
+  mounted() {
+    this.compactLayout
+      ? this.$set(this.expandedItems, this.item.name, 0)
+      : this.$set(this.expandedItems, this.item.name, 1);
   },
   methods: {
     convertMonthsToText: (months, boldCurrent) => {
