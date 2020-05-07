@@ -117,6 +117,21 @@
         </div>
       </div>
     </div>
+    <div class="relative z-20 bg-white mx-auto text-center py-4 shadow-lg">
+      <p class="text-xs">
+        Built with &hearts; by
+        <a
+          href="https://rjlacount.com"
+          target="_blank"
+          class="underline text-black hover:text-green-800 transition-colors duration-300"
+        >R.J. LaCount</a>. View source on
+        <a
+          href="https://github.com/TheFunkyMonk/ac-vue"
+          target="_blank"
+          class="underline text-black hover:text-green-800 transition-colors duration-300"
+        >GitHub</a>.
+      </p>
+    </div>
   </div>
 </template>
 
