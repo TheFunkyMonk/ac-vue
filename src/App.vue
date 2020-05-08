@@ -50,10 +50,10 @@
                   v-model="currentOrder"
                   class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 xs:py-2 pl-3 pr-8 appearance-none rounded-md"
                 >
-                  <option value="id">ID (in-game)</option>
-                  <option value="name">Name</option>
-                  <option value="price">Price</option>
-                  <option value="location">Location</option>
+                  <option class="text-black" value="id">ID (in-game)</option>
+                  <option class="text-black" value="name">Name</option>
+                  <option class="text-black" value="price">Price</option>
+                  <option class="text-black" value="location">Location</option>
                 </select>
               </div>
             </div>
@@ -67,9 +67,15 @@
                   v-model="currentFilter"
                   class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 xs:py-2 pl-3 pr-8 appearance-none rounded-md"
                 >
-                  <option value="all">All</option>
-                  <option value="available">Available in {{ monthStringFromNum(currentMonth) }}</option>
-                  <option value="leaving">Leaving after {{ monthStringFromNum(currentMonth) }}</option>
+                  <option class="text-black" value="all">All</option>
+                  <option
+                    class="text-black"
+                    value="available"
+                  >Available in {{ monthStringFromNum(currentMonth) }}</option>
+                  <option
+                    class="text-black"
+                    value="leaving"
+                  >Leaving after {{ monthStringFromNum(currentMonth) }}</option>
                 </select>
               </div>
             </div>
