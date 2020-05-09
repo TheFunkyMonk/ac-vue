@@ -58,11 +58,18 @@
           :
           <span v-html="convertMonthsToText(item.month[hemisphere], true)"></span>
         </p>
-      </div>
-      <div class="mt-2 -ml-1" v-if="leaving">
-        <p
-          class="inline-block text-xs px-2 leading-loose p-0 rounded-full bg-blue-600 text-white"
-        >Leaving Soon!</p>
+        <div v-if="!(filter === 'coming' || filter === 'leaving')">
+          <div class="mt-2 -ml-1" v-if="leaving">
+            <p
+              class="inline-block text-xs px-2 leading-loose p-0 rounded-full bg-blue-600 text-white"
+            >Leaving Soon!</p>
+          </div>
+          <div class="mt-2 -ml-1" v-if="coming">
+            <p
+              class="inline-block text-xs px-2 leading-loose p-0 rounded-full bg-green-500 text-white"
+            >Coming Soon!</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -76,6 +83,8 @@ export default {
     item: Object,
     hemisphere: String,
     leaving: Boolean,
+    coming: Boolean,
+    filter: String,
     selectedItems: Object,
     expandedItems: Object,
     hideSelected: Boolean,

@@ -76,6 +76,10 @@
                     class="text-black"
                     value="leaving"
                   >Leaving after {{ monthStringFromNum(currentMonth) }}</option>
+                  <option
+                    class="text-black"
+                    value="coming"
+                  >Coming in {{ monthStringFromNum(nextMonth) }}</option>
                 </select>
               </div>
             </div>
@@ -179,6 +183,11 @@ export default {
         : {},
       currentMonth: new Date().getMonth()
     };
+  },
+  computed: {
+    nextMonth() {
+      return this.currentMonth === 12 ? 1 : this.currentMonth + 1;
+    }
   },
   methods: {
     monthStringFromNum: monthStringFromNum

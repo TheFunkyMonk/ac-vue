@@ -13,6 +13,8 @@
           v-bind:item="item"
           v-bind:hemisphere="hemisphere"
           v-bind:leaving="isLeaving(item, hemisphere)"
+          v-bind:coming="isComing(item, hemisphere)"
+          v-bind:filter="filter"
           v-bind:selectedItems="selectedItems"
           v-bind:expandedItems="expandedItems"
           v-bind:hideSelected="hideSelected"
@@ -91,6 +93,20 @@ export default {
       });
       return isLeaving;
     },
+    isComing: (item, hemisphere) => {
+      const months = item.month[hemisphere];
+      const currentMonth = new Date().getMonth() + 1;
+      const nextMonth = currentMonth === 12 ? 1 : currentMonth + 1;
+      let isComing = false;
+
+      months.forEach(month => {
+        if (month === nextMonth && !isComing) {
+          if (months.includes(nextMonth) && !months.includes(currentMonth))
+            isComing = true;
+        }
+      });
+      return isComing;
+    },
     filteredItems(items) {
       const filter = this.filter;
       const sortMethod =
@@ -101,6 +117,7 @@ export default {
 
       switch (filter) {
         case "leaving":
+        case "coming":
         case "available":
           finalItems = this[sortMethod](
             items.filter(item => this[filterMethod](item, this.hemisphere))
