@@ -1394,8 +1394,8 @@
 		"name": "Giraffe Stag",
 		"image": "https://vignette.wikia.nocookie.net/animalcrossing/images/7/7c/NH-Icon-giraffestag.png",
 		"location": "On Trees (Coconut)",
-		"time": "",
-		"price": 0,
+		"time": "5 PM - 8 AM",
+		"price": 12000,
 		"month": {
 			"north": [
 				7,
