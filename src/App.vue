@@ -18,30 +18,50 @@
           </select>
         </div>
         <div class="mt-20 mb-8 md:mb-16 md:text-center">
-          <h2 class="text-xs uppercase tracking-wider font-black text-green-800 mb-1 sm:-mb-1">
+          <h2
+            class="text-xs uppercase tracking-wider font-black text-green-800 mb-1 sm:-mb-1"
+          >
             <span class="inline xs:hidden">{{ abbr }}</span>
             <span class="hidden xs:inline">{{ subtitle }}</span>
           </h2>
           <h1
             class="text-3xl xs:text-6xl leading-none sm:leading-normal font-black text-white"
-          >{{ title }}</h1>
+          >
+            {{ title }}
+          </h1>
         </div>
 
         <div
-          v-bind:class="'bg-green-800 text-white rounded-lg md:px-1 text-base' + (showFilters ? ' mb-8' : ' mb-8' )"
+          v-bind:class="
+            'bg-green-800 text-white rounded-lg md:px-1 text-base' +
+            (showFilters ? ' mb-8' : ' mb-8')
+          "
         >
           <div
             @click.prevent="showFilters = !showFilters"
-            v-bind:class="'flex flex-row items-center justify-between cursor-pointer text-white mx-1 py-2 px-3 relative z-20' + (showFilters ? ' -mb-6' : '')"
+            v-bind:class="
+              'flex flex-row items-center justify-between cursor-pointer text-white mx-1 py-2 px-3 relative z-20' +
+              (showFilters ? ' -mb-6' : '')
+            "
           >
             <h2 class="text-xs uppercase tracking-wider font-black my-2">
-              <span v-bind:class="showFilters ? 'text-transparent' : ''">Filters</span>
+              <span v-bind:class="showFilters ? 'text-transparent' : ''"
+                >Filters</span
+              >
             </h2>
-            <font-awesome-icon v-bind:icon="showFilters ? 'minus' : 'plus'" class="text-white" />
+            <font-awesome-icon
+              v-bind:icon="showFilters ? 'minus' : 'plus'"
+              class="text-white"
+            />
           </div>
-          <div v-if="showFilters" class="flex flex-wrap pb-2 md:pb-4 relative z-10">
+          <div
+            v-if="showFilters"
+            class="flex flex-wrap pb-2 md:pb-4 relative z-10"
+          >
             <div class="w-full xs:w-1/3 px-4 my-2">
-              <p class="text-xs uppercase tracking-wider font-black">Order By</p>
+              <p class="text-xs uppercase tracking-wider font-black">
+                Order By
+              </p>
               <div class="relative text-white">
                 <div class="absolute top-0 right-0 mt-4 mr-3">
                   <font-awesome-icon icon="caret-down" class="block -mt-px" />
@@ -58,7 +78,9 @@
               </div>
             </div>
             <div class="w-full xs:w-1/3 px-4 my-2">
-              <p class="text-xs uppercase tracking-wider font-black">Availability</p>
+              <p class="text-xs uppercase tracking-wider font-black">
+                Availability
+              </p>
               <div class="relative text-white">
                 <div class="absolute top-0 right-0 mt-4 mr-3">
                   <font-awesome-icon icon="caret-down" class="block -mt-px" />
@@ -68,29 +90,36 @@
                   class="bg-transparent border border-white w-full subpixel-antialiased text-sm my-2 py-1 xs:py-2 pl-3 pr-8 appearance-none rounded-md"
                 >
                   <option class="text-black" value="all">All</option>
-                  <option
-                    class="text-black"
-                    value="available"
-                  >Available in {{ monthStringFromNum(currentMonth) }}</option>
-                  <option
-                    class="text-black"
-                    value="leaving"
-                  >Leaving after {{ monthStringFromNum(currentMonth) }}</option>
-                  <option
-                    class="text-black"
-                    value="coming"
-                  >Coming in {{ monthStringFromNum(nextMonth) }}</option>
+                  <option class="text-black" value="available">
+                    Available in {{ monthStringFromNum(currentMonth) }}
+                  </option>
+                  <option class="text-black" value="leaving">
+                    Leaving after {{ monthStringFromNum(currentMonth) }}
+                  </option>
+                  <option class="text-black" value="coming">
+                    Coming in {{ monthStringFromNum(nextMonth) }}
+                  </option>
                 </select>
               </div>
             </div>
             <div class="w-full xs:w-1/3 px-4 my-2">
               <p class="text-xs uppercase tracking-wider font-black">Options</p>
               <div class="relative text-white mt-2 text-sm sub">
-                <input type="checkbox" id="hide-selected" class="mr-2" v-model="hideSelected" />
+                <input
+                  type="checkbox"
+                  id="hide-selected"
+                  class="mr-2"
+                  v-model="hideSelected"
+                />
                 <label for="hide-selected">Hide collected items</label>
               </div>
               <div class="relative text-white mt-1 text-sm sub">
-                <input type="checkbox" id="compact-layout" class="mr-2" v-model="compactLayout" />
+                <input
+                  type="checkbox"
+                  id="compact-layout"
+                  class="mr-2"
+                  v-model="compactLayout"
+                />
                 <label for="compact-layout">Compact layout</label>
               </div>
             </div>
@@ -134,12 +163,14 @@
           href="https://rjlacount.com"
           target="_blank"
           class="underline text-black hover:text-green-800 transition-colors duration-300"
-        >R.J. LaCount</a>. View source on
+          >R.J. LaCount</a
+        >. View source on
         <a
           href="https://github.com/TheFunkyMonk/ac-vue"
           target="_blank"
           class="underline text-black hover:text-green-800 transition-colors duration-300"
-        >GitHub</a>.
+          >GitHub</a
+        >.
       </p>
     </div>
   </div>
@@ -154,7 +185,7 @@ import { monthStringFromNum } from "./js/helpers";
 export default {
   name: "App",
   components: {
-    CardList
+    CardList,
   },
   data() {
     return {
@@ -181,16 +212,16 @@ export default {
       expandedItems: localStorage.expandedItems
         ? JSON.parse(localStorage.expandedItems)
         : {},
-      currentMonth: new Date().getMonth()
+      currentMonth: new Date().getMonth(),
     };
   },
   computed: {
     nextMonth() {
-      return this.currentMonth === 12 ? 1 : this.currentMonth + 1;
-    }
+      return this.currentMonth === 11 ? 0 : this.currentMonth + 1;
+    },
   },
   methods: {
-    monthStringFromNum: monthStringFromNum
+    monthStringFromNum: monthStringFromNum,
   },
   watch: {
     showFilters(newVal) {
@@ -215,15 +246,15 @@ export default {
       deep: true,
       handler(newVal) {
         localStorage.selectedItems = JSON.stringify(newVal);
-      }
+      },
     },
     expandedItems: {
       deep: true,
       handler(newVal) {
         localStorage.expandedItems = JSON.stringify(newVal);
-      }
-    }
-  }
+      },
+    },
+  },
 };
 </script>
 
